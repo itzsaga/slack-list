@@ -1,0 +1,25 @@
+{
+  "name": "slack-list",
+  "version": "1.0.0",
+  "description": "A list of Slack networks sorted by location.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itzsaga/slack-list.git"
+  },
+  "keywords": [
+    "slack"
+  ],
+  "author": "Seth Alexander",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itzsaga/slack-list/issues"
+  },
+  "homepage": "https://github.com/itzsaga/slack-list#readme",
+  "dependencies": {
+    "bulma": "^0.5.3"
+  }
+}
