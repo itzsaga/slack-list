@@ -1,10 +1,13 @@
 module.exports = {
     entry: './src/js/app.js',
     output: {
-      path: __dirname + '/dist',
-      filename: 'bundle.js'
+        path: __dirname + '/dist',
+        filename: 'bundle.js'
     },
     devtool: 'inline-source-map',
+    devServer: {
+        contentBase: '.'
+    },
     module: {
         rules: [{
             test: /\.sass$/,
