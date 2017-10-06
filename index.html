@@ -1,21 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
-    <script src="./dist/bundle.js"></script>
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello Bulma!</title>
+  <script src="./dist/bundle.js"></script>
+</head>
+
+<body>
+  <nav class="navbar is-transparent">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <strong>Slack List</strong>
+      </a>
+      <button class="button navbar-burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div class="navbar-start">
+      <a class="navbar-item" href="/location">
+        By Location
+      </a>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <a class="button is-info is-outlined" href="/new">
+          <span>Add</span>
+          <span class="icon">
+            <i class="fa fa-slack"></i>
+          </span>
+        </a>
+      </div>
+      <div class="navbar-item">
+        <a class="button is-outlined" href="/about">
+          <span>About</span>
+        </a>
+      </div>
+      <a class="navbar-item" href="https://github.com/itzsaga/slack-list" target="_blank">
+        <span class="icon" style="color: #333;">
+          <i class="fa fa-lg fa-github"></i>
+        </span>
+      </a>
+    </div>
+  </nav>
   <section class="section">
     <div class="container">
       <h1 class="title">
         Hello World
       </h1>
       <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
+        My first website with
+        <strong>Bulma</strong>!
       </p>
     </div>
   </section>
-  </body>
+</body>
+
 </html>
