@@ -11,16 +11,28 @@ module.exports = {
         contentBase: '.'
     },
     module: {
-        rules: [{
-            test: /\.sass$/,
-            use: [{
-                loader: "style-loader" // creates style nodes from JS strings
-            }, {
-                loader: "css-loader" // translates CSS into CommonJS
-            }, {
-                loader: "sass-loader" // compiles Sass to CSS
-            }],
-        }]
+        rules: [
+            {
+                test: /\.s(a|c)ss$/,
+                use: [{
+                    loader: "style-loader" // creates style nodes from JS strings
+                }, {
+                    loader: "css-loader" // translates CSS into CommonJS
+                }, {
+                    loader: "sass-loader" // compiles Sass to CSS
+                }],
+            },
+            {
+                test: /\.woff2?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+                // Limiting the size of the woff fonts breaks font-awesome ONLY for the extract text plugin
+                // loader: "url?limit=10000"
+                use: "url-loader"
+            },
+            {
+                test: /\.(ttf|eot|svg)(\?[\s\S]+)?$/,
+                use: 'file-loader'
+            }
+        ]
     }
 }
 

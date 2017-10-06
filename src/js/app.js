@@ -1,2 +1,5 @@
 // Bulma
-require('../../node_modules/bulma/bulma.sass')
+import 'bulma/bulma.sass'
+
+// Font Awesome
+import 'font-awesome/scss/font-awesome.scss';
