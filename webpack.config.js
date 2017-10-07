@@ -39,7 +39,7 @@ module.exports = {
 if (process.env.NODE_ENV !== 'production') {
     module.exports.plugins = (module.exports.plugins || []).concat([
         new HtmlWebpackPlugin({
-            template: './index.html'
+            template: './src/static/index.html'
         })
     ])
 }
