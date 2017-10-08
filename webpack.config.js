@@ -40,6 +40,10 @@ if (process.env.NODE_ENV !== 'production') {
     module.exports.plugins = (module.exports.plugins || []).concat([
         new HtmlWebpackPlugin({
             template: './src/index.html'
+        }),
+         new HtmlWebpackPlugin({  // Also generate a test.html
+          filename: 'new.html',
+          template: './src/new.html'
         })
     ])
 }
