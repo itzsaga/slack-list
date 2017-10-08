@@ -41,7 +41,8 @@ if (process.env.NODE_ENV !== 'production') {
         new HtmlWebpackPlugin({
             template: './src/index.html'
         }),
-         new HtmlWebpackPlugin({  // Also generate a test.html
+        // can be viewed on dev server
+         new HtmlWebpackPlugin({
           filename: 'new.html',
           template: './src/new.html'
         })
