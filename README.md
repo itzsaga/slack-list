@@ -1,4 +1,7 @@
+
 # Slack List
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/itzsaga/slack-list.svg)](https://greenkeeper.io/)
 
 An open source site listing public Slack networks from around the world.
 
