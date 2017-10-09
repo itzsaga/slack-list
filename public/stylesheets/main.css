@@ -1,0 +1,14 @@
+<style media="screen">
+  .channel-list {
+    padding: 3rem 1.5rem 10rem 3.5rem;
+  }
+  .footer{
+    max-height: 20px;
+  }
+  .footer .container{
+    padding: 10px;
+  }
+  .footer .container p {
+    display: inline;
+  }
+</style>
