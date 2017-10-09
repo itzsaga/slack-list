@@ -22,8 +22,8 @@ This will run a local server and you can browse the site.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/itzsaga/slack-list. If you would like to help with this project see our [Contributing](https://github.com/itzsaga/slack-list/blob/master/CONTRIBUTING.md) doc for more info.
+Bug reports and pull requests are welcome on GitHub at https://github.com/itzsaga/slack-list. If you would like to help with this project see our [Contributing](./CONTRIBUTING.md) doc for more info.
 
 ## License
 
-The app is available as open source under the terms of the [MIT License](https://github.com/itzsaga/slack-list/blob/master/LICENSE).
+The app is available as open source under the terms of the [MIT License](./LICENSE).
