@@ -1,13 +1,13 @@
 
 # Slack List
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/itzsaga/slack-list.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/itzsaga/slack-list.svg)](https://greenkeeper.io/) https://travis-ci.org/itzsaga/slack-list.svg?branch=master
 
 An open source site listing public Slack networks from around the world.
 
 ## Usage
 
-TODO: Update when site is live.
+TODO: Update when site is live.  
 Visit the site at [Site Name](http://siteaddy.com) and browse.
 
 ## Installation
