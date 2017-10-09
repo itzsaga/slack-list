@@ -91,27 +91,15 @@ $ git config --global user.email "j.random.user@example.com"
 
 Writing good commit logs is important. A commit log should describe what changed and why. Follow these guidelines when writing one:
 
-1. The first line should be a short description of the change. All words in the description should be in lowercase with the exception of proper nouns, acronyms, and the ones that refer to code, like function/variable names.
-2. Keep the second line blank.
-3. Follow with a longer description of your changes.
+ 1. Separate subject from body with a blank line
+ 1. Limit the subject line to 50 characters
+ 1. Capitalize the subject line
+ 1. Do not end the subject line with a period
+ 1. Use the imperative mood in the subject line
+ 1. Wrap the body at 72 characters
+ 1. Use the body to explain _what_ and _why_ vs. _how_
 
-A good commit log can look something like this:
-
-```txt
-explain the commit in one line
-
-Body of commit message is a few lines of text, explaining things in more detail, possibly giving some background about the issue being fixed, etc. etc.
-
-The body of the commit message can be several paragraphs, with line breaks as necessary.
-```
-
-The header line should be meaningful; it is what other people see when they run `git shortlog` or `git log --oneline`.
-
-If your patch fixes an open issue, you can add a reference to it at the end of the log. Use the `Fixes:` prefix and the full issue URL. For example:
-
-```txt
-Fixes: https://github.com/workshopper/learnyounode/issues/1337
-```
+For reasoning and more info on these seven rules check out [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/).
 
 ### Step 4: Rebase
 
