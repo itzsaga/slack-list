@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/itzsaga/slack-list#readme",
   "dependencies": {
-    "bulma": "^0.5.3",
+    "bulma": "^0.6.0",
     "font-awesome": "^4.7.0"
   },
   "devDependencies": {
