@@ -5,60 +5,117 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hello Bulma!</title>
+  <link rel="stylesheet" type="text/css" href="src/main.css">
   <script src="bundle.js"></script>
 </head>
 
 <body>
-  <nav class="navbar is-transparent">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="/">
-        <strong>Slack List</strong>
-      </a>
-      <button class="button navbar-burger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
 
-    <div class="navbar-start">
-      <a class="navbar-item" href="/location">
-        By Location
-      </a>
-    </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <a class="button is-info is-outlined" href="/new">
-          <span>Add</span>
-          <span class="icon">
-            <i class="fa fa-slack"></i>
-          </span>
-        </a>
-      </div>
-      <div class="navbar-item">
-        <a class="button is-outlined" href="/about">
-          <span>About</span>
-        </a>
-      </div>
-      <a class="navbar-item" href="https://github.com/itzsaga/slack-list" target="_blank">
-        <span class="icon" style="color: #333;">
-          <i class="fa fa-lg fa-github"></i>
-        </span>
-      </a>
-    </div>
-  </nav>
-  <section class="section">
+<!-- NAVBAR
+=========================================================== -->
+ 
+  <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
     <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with
-        <strong>Bulma</strong>!
-      </p>
-    </div>
-  </section>
-</body>
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <strong>Slack List</strong>
+        </a>
+        <button class="button navbar-burger" id="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div> <!-- navbar-brand -->
 
+      <div class="navbar-menu" id="nav-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="/location">
+            By Location
+          </a>
+        </div> <!-- navbar-start -->
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a class="button is-info is-outlined" href="/new">
+              <span>Add</span>
+              <span class="icon">
+                <i class="fa fa-slack"></i>
+              </span>
+            </a>
+          </div> <!-- navbar-item -->
+          <div class="navbar-item">
+            <a class="button is-info is-outlined" href="/about">
+              <span>About</span>
+            </a>
+          </div><!-- navbar-item -->
+          <a class="navbar-item" href="https://github.com/itzsaga/slack-list" target="_blank">
+            <span class="icon" id="github-icon">
+              <i class="fa fa-lg fa-github"></i>
+            </span>
+          </a>
+        </div><!-- navbar-end -->
+      </div> <!-- navbar-menu -->
+    </div> <!-- container -->  
+  </nav>
+
+<!-- HERO SECTION
+=========================================================== -->
+    <section class="hero is-info is-medium is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-mobile">
+            <div class="column is-8 is-offset-2">
+              <h1 class="title">Slack List</h1>
+              <h2 class="subtitle">An open source list of public Slack networks.</h2>
+            </div> <!-- column -->
+          </div> <!-- columns -->
+        </div> <!-- container -->
+      </div> <!-- hero-body -->
+    </section> <!-- hero -->
+
+
+<!-- LIST SECTION
+=========================================================== -->
+    <section class="section channel-list">
+      <div class="container">
+        <div class="columns is-mobile">
+          <div class="column is-8 is-offset-2">
+            <h2 class="title">List</h2>
+            <div class="content">
+              <ul>
+                <li>Channel 1</li>
+                <li>Channel 2</li>
+                <li>Channel 3</li>
+                <li>Channel 4</li>
+                <li>Channel 5</li>
+              </ul>
+            </div> <!-- content -->
+          </div> <!-- column -->
+        </div> <!-- columns-->
+      </div> <!-- container -->
+    </section> <!-- channel-list -->
+
+
+<!-- FOOTER
+=========================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Slack List</strong> by <a href="https://github.com/itzsaga">Seth Alexander</a>
+          </p>
+          <p> The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+          </p>
+          <p>
+            <a class="icon" href="https://github.com/jgthms/bulma">
+              <i class="fa fa-github"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+  </body>
 </html>

@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar .container a:hover {
+  color: #3273df;
+}
+
+#github-icon {
+  color: #3273dc;
+}
+
+footer .container .content a {
+  color: #3273dc;
+}
+
+.navbar-menu {
+  text-align: left;
+}
+
+.channel-list {
+  padding: 3rem 1.5rem 10rem 3.5rem;
+}
+
+.channel-list .content ul {
+  list-style: none;
+}
+
+.section {
+  flex: 1 0 auto;
+}
