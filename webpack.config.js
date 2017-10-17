@@ -44,6 +44,10 @@ if (process.env.NODE_ENV !== 'production') {
         new HtmlWebpackPlugin({
             filename: 'about.html',
             template: './src/about.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'list.html',
+            template: './src/list.html'
         })
     ])
 }
