@@ -3,4 +3,9 @@ node_js:
   - "lts/*"
   - "8"
 install: yarn
-script: yarn build
+script:
+  - yarn build
+  - cypress run
+cache:
+  directories:
+    - /home/travis/.cypress/Cypress
