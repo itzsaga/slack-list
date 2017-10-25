@@ -4,20 +4,20 @@ describe('The About Page', () => {
   })
   it('successfully loads', () => {})
   context('navbar', () => {
-    it("the 'Home' link works", () => {
+    it("'Home' link works", () => {
       cy.contains('Home').click({force: true})
       cy.title().should('not.equal', 'Error')
     })
-    it("the 'The List' link works", () => {
+    it("'The List' link works", () => {
       cy.contains('The List').click({force: true})
       cy.title().should('not.equal', 'Error')
     })
   })
   context('footer', () => {
-    it("the 'MIT License' link works", () => {
+    it("'MIT License' link works", () => {
       cy.contains('MIT License').click()
     })
-    it("the 'CC BY-NC-SA 4.0' link works", () => {
+    it("'CC BY-NC-SA 4.0' link works", () => {
       cy.contains('CC BY-NC-SA 4.0').click()
     })
   })
