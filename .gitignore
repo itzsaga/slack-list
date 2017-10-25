@@ -102,4 +102,4 @@ modules.xml
 node_modules/*
 
 ### Cypress stuff ###
-cypress/screenshot*
+cypress/screenshots*
