@@ -100,3 +100,6 @@ modules.xml
 
 ### Node ###
 node_modules/*
+
+### Cypress stuff ###
+cypress/screenshot*
