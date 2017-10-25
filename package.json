@@ -4,8 +4,9 @@
   "description": "A list of Slack networks sorted by location.",
   "main": "index.html",
   "scripts": {
-    "test": "cypress open",
+    "test": "cypress run",
     "start": "webpack-dev-server --open",
+    "start-ci": "webpack-dev-server --quiet",
     "build": "webpack"
   },
   "repository": {
