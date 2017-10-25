@@ -40,6 +40,11 @@ if (process.env.NODE_ENV !== 'production') {
     module.exports.plugins = (module.exports.plugins || []).concat([
         new HtmlWebpackPlugin({
             template: './src/index.html'
+        }),
+        // can be viewed on dev server
+         new HtmlWebpackPlugin({
+          filename: 'new.html',
+          template: './src/new.html'
         })
     ])
 }
