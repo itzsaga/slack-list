@@ -6,7 +6,7 @@
   "scripts": {
     "test": "cypress run",
     "start": "webpack-dev-server --open",
-    "start-ci": "webpack-dev-server --quiet",
+    "start-ci": "webpack-dev-server --quiet &",
     "build": "webpack"
   },
   "repository": {
