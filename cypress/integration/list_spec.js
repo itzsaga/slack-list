@@ -28,6 +28,9 @@ describe('The List Page', () => {
   context('the list', () => {
 
     context('location based', () => {
+      it("'DevDK' link works", () => {
+        cy.contains('DevDK').click()
+      })
       it("'TECH404' link works", () => {
         cy.contains('TECH404').click()
       })
