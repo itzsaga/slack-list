@@ -58,7 +58,7 @@ describe('The List Page', () => {
       it("'Hangops' link works", () => {
         cy.contains("Hangops").click()
       })
-      it("'iOs Developers' link works", () => {
+      it("'iOS Developers' link works", () => {
         cy.contains("iOs Developers").click()
       })
     })
