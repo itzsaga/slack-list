@@ -46,6 +46,12 @@ describe('The List Page', () => {
       it("'APIs You Won't Hate' link works", () => {
         cy.contains("APIs You Won't Hate").click()
       })
+      it("'Hangops' link works", () => {
+        cy.contains("Hangops").click()
+      })
+      it("'iOs Developers' link works", () => {
+        cy.contains("iOs Developers").click()
+      })
     })
 
     context('programming based', () => {
