@@ -46,6 +46,9 @@ describe('The List Page', () => {
     })
 
     context('it based', () => {
+      it("'Android United' link works", () => {
+        cy.contains("Android United").click()
+      })
       it("'APIs You Won't Hate' link works", () => {
         cy.contains("APIs You Won't Hate").click()
       })
