@@ -3,7 +3,7 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/itzsaga/slack-list.svg)](https://greenkeeper.io/) [![Build Status](https://travis-ci.org/itzsaga/slack-list.svg?branch=master)](https://travis-ci.org/itzsaga/slack-list)
 
-An open source site listing public Slack networks from around the world.
+An open source site listing public Slack networks from around the universe.
 
 ## Usage
 
