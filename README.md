@@ -30,3 +30,5 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/itzsag
 ## License
 
 The app is available as open source under the terms of the [MIT License](./LICENSE).
+
+YAY! :beers:
