@@ -103,3 +103,5 @@ node_modules/*
 
 ### Cypress stuff ###
 cypress/screenshots*
+
+package-lock.json
