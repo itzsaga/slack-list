@@ -31,8 +31,29 @@ describe('The List Page', () => {
       it("'DevDK' link works", () => {
         cy.contains('DevDK').click()
       })
+      it("'Software Craftsmanship' link works", () => {
+        cy.contains('Software Craftsmanship').click()
+      })
+      it("'NewTech Colorado' link works", () => {
+        cy.contains('NewTech Colorado').click()
+      })
+      it("'Suncoast Developers Guild' link works", () => {
+        cy.contains('TECH404').click()
+      })
       it("'TECH404' link works", () => {
         cy.contains('TECH404').click()
+      })
+      it("'Louisville Tech / Louisville.IO' link works", () => {
+        cy.contains('Louisville Tech / Louisville.IO').click()
+      })
+      it("'MidWestDevChat.com' link works", () => {
+        cy.contains('MidWestDevChat.com').click()
+      })
+      it("'New York Tech' link works", () => {
+        cy.contains('New York Tech').click()
+      })
+      it("'Portland Tech' link works", () => {
+        cy.contains('Portland Tech').click()
       })
       it("'Charleston Tech' link works", () => {
         cy.contains('Charleston Tech').click()
@@ -42,6 +63,15 @@ describe('The List Page', () => {
       })
       it("'NashDev' link works", () => {
         cy.contains('NashDev').click()
+      })
+      it("'KnoxDev' link works", () => {
+        cy.contains('KnoxDev').click()
+      })
+      it("'DFWStartupCommunity' link works", () => {
+        cy.contains('DFWStartupCommunity').click()
+      })
+      it("'Open Austin' link works", () => {
+        cy.contains('Open Austin').click()
       })
     })
 
