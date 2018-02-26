@@ -6,6 +6,9 @@ install: yarn
 script:
   - yarn start-ci
   - cypress run
+addons:
+  code_climate:
+    repo_token: 927595a2b39ffcc289e2cb57cbd34919077c9c95445ff637159e5941cbad73f8
 cache:
   directories:
     - /home/travis/.cypress/Cypress
