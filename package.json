@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/itzsaga/slack-list#readme",
   "dependencies": {
-    "bulma": "^0.6.0",
+    "bulma": "^0.7.1",
     "font-awesome": "^4.7.0",
     "sass-loader": "^6.0.6"
   },
@@ -31,10 +31,10 @@
     "css-loader": "^0.28.7",
     "cypress": "^2.0.1",
     "file-loader": "^1.1.5",
-    "html-webpack-plugin": "^2.30.1",
+    "html-webpack-plugin": "^3.0.4",
     "node-sass": "^4.5.3",
-    "style-loader": "^0.20.0",
-    "url-loader": "^0.6.2",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
   }

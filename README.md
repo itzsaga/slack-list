@@ -7,8 +7,7 @@ An open source site listing public Slack networks from around the world.
 
 ## Usage
 
-TODO: Update when site is live.  
-Visit the site at [Site Name](http://siteaddy.com) and browse.
+Visit the site at [Slack List](https://slack.directory) and browse.
 
 ## Installation
 
