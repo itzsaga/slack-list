@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Hero from './hero'
+import Footer from './footer'
 import './layout.sass'
 
 const Layout = ({ children }) => (
@@ -33,6 +34,7 @@ const Layout = ({ children }) => (
         </Helmet>
         <Hero siteTitle={data.site.siteMetadata.title} />
         {children}
+        <Footer />
       </>
     )}
   />
