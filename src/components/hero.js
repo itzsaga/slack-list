@@ -23,7 +23,9 @@ class Hero extends Component {
               </div>
               <div className="navbar-menu">
                 <div className="navbar-end">
-                  <Link className="navbar-item is-active">Home</Link>
+                  <Link className="navbar-item is-active" to="/">
+                    Home
+                  </Link>
                   <Link className="navbar-item" to="/about">
                     About
                   </Link>
