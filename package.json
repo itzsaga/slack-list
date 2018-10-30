@@ -4,7 +4,7 @@
   "description": "A list of Slack networks sorted by location.",
   "main": "index.html",
   "scripts": {
-    "test": "cypress run",
+    "test": "yarn develop & cypress run",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"src/**/*.js\""
