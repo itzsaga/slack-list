@@ -1,5 +1,0 @@
-// Bulma
-import 'bulma/bulma.sass'
-
-// Font Awesome
-import 'font-awesome/scss/font-awesome.scss';

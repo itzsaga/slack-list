@@ -1,6 +1,6 @@
 describe('The List Page', () => {
   beforeEach(() => {
-    cy.visit('/list.html')
+    cy.visit('/list')
   })
 
   it('successfully loads', () => {})
