@@ -2,6 +2,12 @@ import React, { Component } from 'react'
 import { Link } from 'gatsby'
 
 class Hero extends Component {
+  state = { burgerOpen: false }
+
+  toggleBurgerMenu = () => {
+    this.setState(({ burgerOpen }) => ({ burgerOpen: !burgerOpen }))
+  }
+
   render() {
     const { location } = this.props
     return (
@@ -14,15 +20,24 @@ class Hero extends Component {
                   <strong>{this.props.siteTitle}</strong>
                 </Link>
                 <span
-                  className="navbar-burger burger"
-                  data-target="navbarMenuHeroA"
+                  role="button"
+                  className={`navbar-burger ${this.state.burgerOpen &&
+                    'is-active'}`}
+                  aria-label="menu"
+                  aria-expanded="false"
+                  data-target="nabbarMenuHeroA"
+                  onClick={this.toggleBurgerMenu}
                 >
-                  <span />
-                  <span />
-                  <span />
+                  <span aria-hidden="true" />
+                  <span aria-hidden="true" />
+                  <span aria-hidden="true" />
                 </span>
               </div>
-              <div className="navbar-menu">
+              <div
+                className={`navbar-menu  ${this.state.burgerOpen &&
+                  'is-active'}`}
+                id="navbarMenuHeroA"
+              >
                 <div className="navbar-end">
                   <Link
                     className={`navbar-item ${location === '/' && 'is-active'}`}
@@ -30,10 +45,18 @@ class Hero extends Component {
                   >
                     Home
                   </Link>
-                  <Link className={`navbar-item ${location === 'about' && 'is-active'}`} to="/about">
+                  <Link
+                    className={`navbar-item ${location === 'about' &&
+                      'is-active'}`}
+                    to="/about"
+                  >
                     About
                   </Link>
-                  <Link className={`navbar-item ${location === '/list' && 'is-active'}`} to="/list">
+                  <Link
+                    className={`navbar-item ${location === '/list' &&
+                      'is-active'}`}
+                    to="/list"
+                  >
                     The List
                   </Link>
                   <span className="navbar-item">
