@@ -1,6 +1,6 @@
 describe('The About Page', () => {
   beforeEach(() => {
-    cy.visit('/about.html')
+    cy.visit('/about')
   })
   it('successfully loads', () => {})
   context('navbar', () => {
