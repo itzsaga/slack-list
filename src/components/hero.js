@@ -10,9 +10,9 @@ class Hero extends Component {
           <nav className="navbar">
             <div className="container">
               <div className="navbar-brand">
-                <a className="navbar-item" href="/">
+                <Link className="navbar-item" to="/">
                   <strong>{this.props.siteTitle}</strong>
-                </a>
+                </Link>
                 <span
                   className="navbar-burger burger"
                   data-target="navbarMenuHeroA"
