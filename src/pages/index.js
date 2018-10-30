@@ -2,8 +2,8 @@ import React from 'react'
 
 import Layout from '../components/layout'
 
-const IndexPage = () => (
-  <Layout>
+const IndexPage = ({ location: { pathname }}) => (
+  <Layout location={pathname}>
     <section className="section">
       <div className="container">
         <div className="content">

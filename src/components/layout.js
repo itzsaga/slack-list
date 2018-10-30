@@ -7,7 +7,7 @@ import Hero from './hero'
 import Footer from './footer'
 import './layout.sass'
 
-const Layout = ({ children }) => (
+const Layout = ({ children, location }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -32,7 +32,7 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <Hero siteTitle={data.site.siteMetadata.title} />
+        <Hero siteTitle={data.site.siteMetadata.title} location={location} />
         {children}
         <Footer />
       </>
