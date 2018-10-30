@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 
 class Hero extends Component {
   render() {
+    const { location } = this.props
     return (
       <section className="hero is-dark is-medium">
         <div className="hero-head">
@@ -23,13 +24,16 @@ class Hero extends Component {
               </div>
               <div className="navbar-menu">
                 <div className="navbar-end">
-                  <Link className="navbar-item is-active" to="/">
+                  <Link
+                    className={`navbar-item ${location === '/' && 'is-active'}`}
+                    to="/"
+                  >
                     Home
                   </Link>
-                  <Link className="navbar-item" to="/about">
+                  <Link className={`navbar-item ${location === 'about' && 'is-active'}`} to="/about">
                     About
                   </Link>
-                  <Link className="navbar-item" to="/list">
+                  <Link className={`navbar-item ${location === '/list' && 'is-active'}`} to="/list">
                     The List
                   </Link>
                   <span className="navbar-item">
@@ -56,6 +60,38 @@ class Hero extends Component {
             <h1 className="title">Slack List</h1>
           </div>
         </div>
+
+        {location === '/list' && (
+          <div className="hero-foot">
+            <div className="tabs">
+              <div className="container">
+                <ul>
+                  <li>
+                    <a href="#location">Location Based</a>
+                  </li>
+                  <li>
+                    <a href="#it">IT Based</a>
+                  </li>
+                  <li>
+                    <a href="#">Product Based</a>
+                  </li>
+                  <li>
+                    <a href="#programming">Programming Based</a>
+                  </li>
+                  <li>
+                    <a href="#">Hardware Based</a>
+                  </li>
+                  <li>
+                    <a href="#">Finance and Marketing Based</a>
+                  </li>
+                  <li>
+                    <a href="#">Miscellaneous Based</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        )}
       </section>
     )
   }
