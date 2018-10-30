@@ -5,9 +5,9 @@
   "main": "index.html",
   "scripts": {
     "test": "cypress run",
-    "start": "webpack-dev-server --open",
-    "start-ci": "webpack-dev-server --quiet &",
-    "build": "webpack"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"src/**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,17 @@
   "dependencies": {
     "bulma": "^0.7.1",
     "font-awesome": "^4.7.0",
+    "gatsby": "^2.0.34",
+    "gatsby-image": "^2.0.18",
+    "gatsby-plugin-manifest": "^2.0.7",
+    "gatsby-plugin-offline": "^2.0.10",
+    "gatsby-plugin-react-helmet": "^3.0.1",
+    "gatsby-plugin-sharp": "^2.0.10",
+    "gatsby-source-filesystem": "^2.0.6",
+    "gatsby-transformer-sharp": "^2.1.7",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-helmet": "^5.2.0",
     "sass-loader": "^7.0.1"
   },
   "devDependencies": {
@@ -33,6 +44,7 @@
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.0.4",
     "node-sass": "^4.5.3",
+    "prettier": "^1.14.3",
     "style-loader": "^0.23.0",
     "url-loader": "^1.0.1",
     "webpack": "^4.19.1",
