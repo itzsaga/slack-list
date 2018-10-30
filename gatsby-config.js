@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Default Starter"
+    title: "Slack List"
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -16,8 +16,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "gatsby-starter-default",
-        short_name: "starter",
+        name: "slack-list",
+        short_name: "slack-list",
         start_url: "/",
         background_color: "#663399",
         theme_color: "#663399",
