@@ -17,7 +17,7 @@ To run locally you will need [NodeJS](https://nodejs.org/) and [Yarn](https://ya
 git clone git@github.com:itzsaga/slack-list.git
 cd slack-list
 yarn
-yarn start
+yarn develop
 ```
 
 This will run a local server and you can browse the site.
