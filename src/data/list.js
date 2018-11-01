@@ -5,6 +5,7 @@ export default {
         name: 'DevDK',
         description:
           'Dansk digitalt community — Arrangør af One Day Out, stifter af #devdk — For et bedre community i Danmark',
+        url: 'http://slack.devdk.org/',
       },
     ],
     'united states': [
@@ -13,6 +14,7 @@ export default {
           {
             name: '',
             description: '',
+            url: '',
           },
         ],
       },
@@ -21,6 +23,7 @@ export default {
           {
             name: '',
             description: '',
+            url: '',
           },
         ],
       },
@@ -29,6 +32,7 @@ export default {
           {
             name: '',
             description: '',
+            url: '',
           },
         ],
       },
@@ -37,6 +41,7 @@ export default {
           {
             name: '',
             description: '',
+            url: '',
           },
         ],
       },
@@ -45,6 +50,7 @@ export default {
           {
             name: '',
             description: '',
+            url: '',
           },
         ],
       },
@@ -53,6 +59,7 @@ export default {
           {
             name: '',
             description: '',
+            url: '',
           },
         ],
       },
@@ -61,6 +68,7 @@ export default {
           {
             name: '',
             description: '',
+            url: '',
           },
         ],
       },
@@ -69,6 +77,7 @@ export default {
           {
             name: '',
             description: '',
+            url: '',
           },
         ],
       },
@@ -77,6 +86,7 @@ export default {
           {
             name: '',
             description: '',
+            url: '',
           },
         ],
       },
@@ -85,6 +95,7 @@ export default {
           {
             name: '',
             description: '',
+            url: '',
           },
         ],
       },
@@ -93,6 +104,7 @@ export default {
           {
             name: '',
             description: '',
+            url: '',
           },
         ],
       },
@@ -101,14 +113,17 @@ export default {
           {
             name: '',
             description: '',
+            url: '',
           },
           {
             name: '',
             description: '',
+            url: '',
           },
           {
             name: '',
             description: '',
+            url: '',
           },
         ],
       },
@@ -117,19 +132,53 @@ export default {
           {
             name: '',
             description: '',
+            url: '',
           },
           {
             name: '',
             description: '',
+            url: '',
           },
         ],
       },
     ],
   },
-  itBased: [{}],
-  productBased: [{}],
-  programmingBased: [{}],
-  hardwareBased: [{}],
-  financeAndMarketingBased: [{}],
-  miscellaneousBased: [{}],
+  itBased: [
+    {
+      name: '',
+      description: '',
+      url: '',
+    },
+    {
+      name: '',
+      description: '',
+      url: '',
+    },
+    {
+      name: '',
+      description: '',
+      url: '',
+    },
+    {
+      name: '',
+      description: '',
+      url: '',
+    },
+    {
+      name: '',
+      description: '',
+      url: '',
+    },
+  ],
+  productBased: [],
+  programmingBased: [
+    {
+      name: '',
+      description: '',
+      url: '',
+    },
+  ],
+  hardwareBased: [],
+  financeAndMarketingBased: [],
+  miscellaneousBased: [],
 }
