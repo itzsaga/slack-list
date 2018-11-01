@@ -96,18 +96,22 @@ class Hero extends Component {
                     <a href="#it">IT Based</a>
                   </li>
                   <li>
+                    {/* eslint-disable-next-line */}
                     <a href="#">Product Based</a>
                   </li>
                   <li>
                     <a href="#programming">Programming Based</a>
                   </li>
                   <li>
+                    {/* eslint-disable-next-line */}
                     <a href="#">Hardware Based</a>
                   </li>
                   <li>
+                    {/* eslint-disable-next-line */}
                     <a href="#">Finance and Marketing Based</a>
                   </li>
                   <li>
+                    {/* eslint-disable-next-line */}
                     <a href="#">Miscellaneous Based</a>
                   </li>
                 </ul>

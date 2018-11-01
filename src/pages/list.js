@@ -7,9 +7,9 @@ const ListPage = ({ location: { pathname } }) => (
     <section className="section">
       <div className="container">
         <div className="content">
-          <a name="location">
+          <div id="location">
             <h2>Networks Based around a Location</h2>
-          </a>
+          </div>
           <ul>
             <li>
               <h3>Denmark</h3>
@@ -265,9 +265,9 @@ const ListPage = ({ location: { pathname } }) => (
             </ul>
           </ul>
 
-          <a name="it">
+          <div id="it">
             <h2>Networks Based around IT</h2>
-          </a>
+          </div>
           <ul>
             <li>
               <a
@@ -325,9 +325,9 @@ const ListPage = ({ location: { pathname } }) => (
             </li>
           </ul>
 
-          <a name="programming">
+          <div id="programming">
             <h2>Networks Based around Programming</h2>
-          </a>
+          </div>
           <ul>
             <li>
               <a
