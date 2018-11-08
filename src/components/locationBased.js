@@ -31,10 +31,12 @@ const LocationBased = ({ locationBased }) => (
               </li>
             ))
             return (
-              <li>
-                <h3>{capitalizeWords(stateName)}</h3>
+              <Fragment>
+                <li>
+                  <h3>{capitalizeWords(stateName)}</h3>
+                </li>
                 <ul>{stateNetworks}</ul>
-              </li>
+              </Fragment>
             )
           })
         }
