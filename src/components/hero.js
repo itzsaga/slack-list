@@ -74,6 +74,7 @@ class Hero extends Component {
         <div className="hero-body">
           <div className="container">
             <h1 className="title">Slack List</h1>
+            <h2 className="subtitle">Where you find your community</h2>
           </div>
         </div>
 
