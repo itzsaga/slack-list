@@ -17,7 +17,7 @@ const IndexPage = ({ location: { pathname } }) => (
           </div>
           <ul>
             {list.itBased.map(network => (
-              <ListItem item={network} />
+              <ListItem item={network} key={network.url} />
             ))}
           </ul>
           <div id="programming">
@@ -25,7 +25,7 @@ const IndexPage = ({ location: { pathname } }) => (
           </div>
           <ul>
             {list.programmingBased.map(network => (
-              <ListItem item={network} />
+              <ListItem item={network} key={network.url} />
             ))}
           </ul>
         </div>
