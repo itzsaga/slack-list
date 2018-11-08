@@ -52,13 +52,6 @@ class Hero extends Component {
                   >
                     About
                   </Link>
-                  <Link
-                    className={`navbar-item ${location === '/list' &&
-                      'is-active'}`}
-                    to="/list"
-                  >
-                    The List
-                  </Link>
                   <span className="navbar-item">
                     <a
                       className="button is-dark is-inverted"
@@ -81,10 +74,11 @@ class Hero extends Component {
         <div className="hero-body">
           <div className="container">
             <h1 className="title">Slack List</h1>
+            <h2 className="subtitle">Where you find your community</h2>
           </div>
         </div>
 
-        {location === '/list' && (
+        {location === '/' && (
           <div className="hero-foot">
             <div className="tabs">
               <div className="container">
