@@ -8,10 +8,6 @@ describe('The About Page', () => {
       cy.contains('Home').click({force: true})
       cy.title().should('not.equal', 'Error')
     })
-    it("'The List' link works", () => {
-      cy.contains('The List').click({force: true})
-      cy.title().should('not.equal', 'Error')
-    })
   })
   context('footer', () => {
     it("'MIT License' link works", () => {
