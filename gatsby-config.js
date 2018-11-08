@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Slack List',
+    title: 'SL',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -16,5 +16,6 @@ module.exports = {
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-sass',
+    'gatsby-plugin-react-a11y'
   ],
 }
