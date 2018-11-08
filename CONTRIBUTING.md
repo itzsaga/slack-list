@@ -10,8 +10,6 @@ The role of lead maintainers is to triage and categorize issues, answer question
 
 **Current Lead Maintainers**
 - Seth Alexander [@itzsaga](https://github.com/itzsaga)
-- Stephanie Castellanos [@stephcllanos](https://github.com/stephcllanos)
-- Ben Morin [@BeAnMo](https://github.com/BeAnMo)
 
 ### Volunteer
 
