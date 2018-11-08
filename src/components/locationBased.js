@@ -12,7 +12,7 @@ const LocationBased = ({ locationBased }) => (
         const countryName = Object.keys(country)[0]
         if (countryName !== 'united states') {
           slackNetworks = country[countryName].map(network => (
-            <li key={network.url}>
+            <li>
               <a href={network.url} target="_blank" rel="noopener noreferrer">
                 {network.name}
               </a>{' '}
@@ -23,7 +23,7 @@ const LocationBased = ({ locationBased }) => (
           slackNetworks = country[countryName].map(state => {
             const stateName = Object.keys(state)[0]
             const stateNetworks = state[stateName].map(network => (
-              <li key={network.url}>
+              <li>
                 <a href={network.url} target="_blank" rel="noopener noreferrer">
                   {network.name}
                 </a>{' '}
@@ -31,17 +31,15 @@ const LocationBased = ({ locationBased }) => (
               </li>
             ))
             return (
-              <Fragment key={stateName}>
-                <li>
-                  <h3>{capitalizeWords(stateName)}</h3>
-                  <ul>{stateNetworks}</ul>
-                </li>
-              </Fragment>
+              <li>
+                <h3>{capitalizeWords(stateName)}</h3>
+                <ul>{stateNetworks}</ul>
+              </li>
             )
           })
         }
         return (
-          <Fragment key={countryName}>
+          <Fragment>
             <li>
               <h3>{capitalizeWords(countryName)}</h3>
             </li>
