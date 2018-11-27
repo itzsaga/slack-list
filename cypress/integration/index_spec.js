@@ -30,14 +30,23 @@ describe('The List Page', () => {
       it("'Software Craftsmanship' link works", () => {
         cy.contains('Software Craftsmanship').click()
       })
+      it("'DCTech' link works", () => {
+        cy.contains('DCTech').click()
+      })
+      it("'Denver Devs' link works", () => {
+        cy.contains('Denver Devs').click()
+      })
       it("'NewTech Colorado' link works", () => {
         cy.contains('NewTech Colorado').click()
       })
       it("'Suncoast Developers Guild' link works", () => {
-        cy.contains('TECH404').click()
+        cy.contains('Suncoast Developers Guild').click()
       })
       it("'TECH404' link works", () => {
         cy.contains('TECH404').click()
+      })
+      it("'Chicago Tech' link works", () => {
+        cy.contains('Chicago Tech').click()
       })
       it("'Louisville Tech / Louisville.IO' link works", () => {
         cy.contains('Louisville Tech / Louisville.IO').click()
@@ -45,11 +54,20 @@ describe('The List Page', () => {
       it("'MidWestDevChat.com' link works", () => {
         cy.contains('MidWestDevChat.com').click()
       })
-      it("'New York Tech' link works", () => {
-        cy.contains('New York Tech').click()
+      it("'NYC Devs' link works", () => {
+        cy.contains('NYC Devs').click()
+      })
+      it("'NYCTech' link works", () => {
+        cy.contains('NYCTech').click()
       })
       it("'Portland Tech' link works", () => {
         cy.contains('Portland Tech').click()
+      })
+      it("'#techseattle' link works", () => {
+        cy.contains('#techseattle').click()
+      })
+      it("'Phillydev' link works", () => {
+        cy.contains('Phillydev').click()
       })
       it("'Charleston Tech' link works", () => {
         cy.contains('Charleston Tech').click()

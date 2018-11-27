@@ -32,7 +32,22 @@ export default {
           ],
         },
         {
+          'washington dc': [
+            {
+              name: 'DCTech',
+              description:
+                'A free, public Slack for the Washington, DC Tech community.',
+              url: 'http://www.dctechslack.com/',
+            },
+          ],
+        },
+        {
           colorado: [
+            {
+              name: 'Denver Devs',
+              description: 'A community of Denver developers',
+              url: 'https://denverdevs.org/',
+            },
             {
               name: 'NewTech Colorado',
               description:
@@ -62,6 +77,15 @@ export default {
           ],
         },
         {
+          illinois: [
+            {
+              name: 'Chicago Tech',
+              description: 'Chicago tech gang',
+              url: 'http://chicagotech.herokuapp.com/',
+            },
+          ],
+        },
+        {
           kentucky: [
             {
               name: 'Louisville Tech / Louisville.IO',
@@ -84,7 +108,12 @@ export default {
         {
           'new york': [
             {
-              name: 'New York Tech',
+              name: 'NYC Devs',
+              description: 'Community of New York City based developers.',
+              url: 'http://nycdevs.org/',
+            },
+            {
+              name: 'NYCTech',
               description: 'A network for the New York Tech scene.',
               url: 'http://www.nyctechslack.com/',
             },
@@ -97,10 +126,21 @@ export default {
               description: 'A network for the Portland Tech scene.',
               url: 'http://pdx-startups-slack.herokuapp.com/',
             },
+            {
+              name: '#techseattle',
+              description:
+                'The bridge between you and the Seattle tech community. Build it all together.',
+              url: 'https://launchpass.com/techseattle',
+            },
           ],
         },
         {
           pennsylvania: [
+            {
+              name: 'Phillydev',
+              description: 'Philadelphia developers community',
+              url: 'https://phillydev.herokuapp.com/',
+            },
             {
               name: 'Philadelphia Startup Leaders',
               description: 'Philadelphia Startup Leaders',
