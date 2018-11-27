@@ -121,6 +121,11 @@ export default {
               description: 'A network for the Portland Tech scene.',
               url: 'http://pdx-startups-slack.herokuapp.com/',
             },
+            {
+              name: '#techseattle',
+              description: 'The bridge between you and the Seattle tech community. Build it all together.',
+              url: 'https://launchpass.com/techseattle'
+            }
           ],
         },
         {
