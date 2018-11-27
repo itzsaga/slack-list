@@ -32,6 +32,15 @@ export default {
           ],
         },
         {
+          "washington dc": [
+            {
+              name: "DCTech",
+              description: 'A free, public Slack for the Washington, DC Tech community.',
+              url: 'http://www.dctechslack.com/'
+            }
+          ]
+        },
+        {
           colorado: [
             {
               name: 'NewTech Colorado',

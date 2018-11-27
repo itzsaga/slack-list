@@ -30,6 +30,9 @@ describe('The List Page', () => {
       it("'Software Craftsmanship' link works", () => {
         cy.contains('Software Craftsmanship').click()
       })
+      it("'DCTech' link works", () => {
+        cy.contains('DCTech').click()
+      })
       it("'NewTech Colorado' link works", () => {
         cy.contains('NewTech Colorado').click()
       })
