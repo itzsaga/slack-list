@@ -57,6 +57,9 @@ describe('The List Page', () => {
       it("'Portland Tech' link works", () => {
         cy.contains('Portland Tech').click()
       })
+      it("'Phillydev' link works", () => {
+        cy.contains('Phillydev').click()
+      })
       it("'Charleston Tech' link works", () => {
         cy.contains('Charleston Tech').click()
       })

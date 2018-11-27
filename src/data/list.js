@@ -121,6 +121,11 @@ export default {
         {
           pennsylvania: [
             {
+              name: 'Phillydev',
+              description: 'Philadelphia developers community',
+              url: 'https://phillydev.herokuapp.com/'
+            },
+            {
               name: 'Philadelphia Startup Leaders',
               description: 'Philadelphia Startup Leaders',
               url: 'https://www.sendgrowth.com/psl',
