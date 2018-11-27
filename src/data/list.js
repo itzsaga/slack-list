@@ -108,7 +108,7 @@ export default {
         {
           'new york': [
             {
-              name: 'New York Tech',
+              name: 'NYCTech',
               description: 'A network for the New York Tech scene.',
               url: 'http://www.nyctechslack.com/',
             },
