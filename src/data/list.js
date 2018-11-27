@@ -44,6 +44,11 @@ export default {
         {
           colorado: [
             {
+              name: 'Denver Devs',
+              description: 'A community of Denver developers',
+              url: 'https://denverdevs.org/'
+            },
+            {
               name: 'NewTech Colorado',
               description:
                 'New Tech is a community of 12,000 geeks who live and work in Colorado.',
