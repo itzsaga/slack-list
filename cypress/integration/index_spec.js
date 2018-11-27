@@ -54,8 +54,11 @@ describe('The List Page', () => {
       it("'MidWestDevChat.com' link works", () => {
         cy.contains('MidWestDevChat.com').click()
       })
-      it("'New York Tech' link works", () => {
-        cy.contains('New York Tech').click()
+      it("'NYC Devs' link works", () => {
+        cy.contains('NYC Devs').click()
+      })
+      it("'NYCTech' link works", () => {
+        cy.contains('NYCTech').click()
       })
       it("'Portland Tech' link works", () => {
         cy.contains('Portland Tech').click()
