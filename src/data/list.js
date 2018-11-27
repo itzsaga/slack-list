@@ -32,13 +32,14 @@ export default {
           ],
         },
         {
-          "washington dc": [
+          'washington dc': [
             {
-              name: "DCTech",
-              description: 'A free, public Slack for the Washington, DC Tech community.',
-              url: 'http://www.dctechslack.com/'
-            }
-          ]
+              name: 'DCTech',
+              description:
+                'A free, public Slack for the Washington, DC Tech community.',
+              url: 'http://www.dctechslack.com/',
+            },
+          ],
         },
         {
           colorado: [
@@ -67,6 +68,15 @@ export default {
               description:
                 'Chat channels for Atlanta area developers, designers, marketers, business people, hobbyists, students, and other professionals involved in technology.',
               url: 'http://tech404.io/',
+            },
+          ],
+        },
+        {
+          illinois: [
+            {
+              name: 'Chicago Tech',
+              description: 'Chicago tech gang',
+              url: 'http://chicagotech.herokuapp.com/'
             },
           ],
         },

@@ -37,10 +37,13 @@ describe('The List Page', () => {
         cy.contains('NewTech Colorado').click()
       })
       it("'Suncoast Developers Guild' link works", () => {
-        cy.contains('TECH404').click()
+        cy.contains('Suncoast Developers Guild').click()
       })
       it("'TECH404' link works", () => {
         cy.contains('TECH404').click()
+      })
+      it("'Chicago Tech' link works", () => {
+        cy.contains('Chicago Tech').click()
       })
       it("'Louisville Tech / Louisville.IO' link works", () => {
         cy.contains('Louisville Tech / Louisville.IO').click()
