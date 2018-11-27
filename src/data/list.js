@@ -46,7 +46,7 @@ export default {
             {
               name: 'Denver Devs',
               description: 'A community of Denver developers',
-              url: 'https://denverdevs.org/'
+              url: 'https://denverdevs.org/',
             },
             {
               name: 'NewTech Colorado',
@@ -81,7 +81,7 @@ export default {
             {
               name: 'Chicago Tech',
               description: 'Chicago tech gang',
-              url: 'http://chicagotech.herokuapp.com/'
+              url: 'http://chicagotech.herokuapp.com/',
             },
           ],
         },
@@ -110,7 +110,7 @@ export default {
             {
               name: 'NYC Devs',
               description: 'Community of New York City based developers.',
-              url: 'http://nycdevs.org/'
+              url: 'http://nycdevs.org/',
             },
             {
               name: 'NYCTech',
@@ -128,9 +128,10 @@ export default {
             },
             {
               name: '#techseattle',
-              description: 'The bridge between you and the Seattle tech community. Build it all together.',
-              url: 'https://launchpass.com/techseattle'
-            }
+              description:
+                'The bridge between you and the Seattle tech community. Build it all together.',
+              url: 'https://launchpass.com/techseattle',
+            },
           ],
         },
         {
@@ -138,7 +139,7 @@ export default {
             {
               name: 'Phillydev',
               description: 'Philadelphia developers community',
-              url: 'https://phillydev.herokuapp.com/'
+              url: 'https://phillydev.herokuapp.com/',
             },
             {
               name: 'Philadelphia Startup Leaders',
