@@ -27,7 +27,7 @@
     "font-awesome": "^4.7.0",
     "gatsby": "^2.0.52",
     "gatsby-plugin-manifest": "^2.0.12",
-    "gatsby-plugin-offline": "^2.0.15",
+    "gatsby-plugin-offline": "^2.0.20",
     "gatsby-plugin-react-helmet": "^3.0.2",
     "gatsby-plugin-sass": "^2.0.4",
     "gatsby-plugin-sharp": "^2.0.12",
