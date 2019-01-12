@@ -3324,9 +3324,9 @@ debug@^3.2.5:
     ms "^2.1.1"
 
 debug@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.0.tgz#373687bffa678b38b1cd91f861b63850035ddc87"
-  integrity sha512-heNPJUJIqC+xB6ayLAMHaIrmN9HKa7aQO8MGqKpvCA+uJYVcvR6l5kgdrhRuwPFHU7P5/A1w0BjByPHwpfTDKg==
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
+  integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
   dependencies:
     ms "^2.1.1"
 
@@ -4868,6 +4868,7 @@ fs-copy-file-sync@^1.1.1:
 fs-exists-cached@1.0.0, fs-exists-cached@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs-exists-cached/-/fs-exists-cached-1.0.0.tgz#cf25554ca050dc49ae6656b41de42258989dcbce"
+  integrity sha1-zyVVTKBQ3EmuZla0HeQiWJidy84=
 
 fs-extra@4.0.1:
   version "4.0.1"
@@ -5073,10 +5074,10 @@ gatsby-transformer-sharp@^2.1.9:
     probe-image-size "^4.0.0"
     sharp "^0.21.0"
 
-gatsby@^2.0.75:
-  version "2.0.75"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.75.tgz#33fdf97d0cd95740b76ccc4e364a06bc0294a72f"
-  integrity sha512-jDsLjXHoczGbmvwqDgGCeAl9R94u0iW2a9nzyRGkJLHufonhahmGVqFBeTDaPq/3KDqqi8lUK/4P0FhJty2qCQ==
+gatsby@^2.0.76:
+  version "2.0.76"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.76.tgz#a28b975f4e80d80be6501d6ee15e4fae8d766342"
+  integrity sha512-Fja6wmPc4dEq3vBFkwJYiiwhRyJyb4M/REHALjrwTpjh1YVwK0WIZyBDNMNA1Fb5aiX27/TMo3p7Qmo1zKZ1rA==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -11676,9 +11677,9 @@ yeast@0.1.2:
   resolved "https://registry.yarnpkg.com/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
 
 yurnalist@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/yurnalist/-/yurnalist-1.0.3.tgz#eff140a5105be52d675788e7188e30e58f836ded"
-  integrity sha512-7V3LGgqv4mBBIb1IZysGRBO3Lu/m85qdCZNC0EGvhaIoUoRhnNVVQshl1GxwiTWgaRXX7hw+YPtbhjNiFmUjDA==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/yurnalist/-/yurnalist-1.0.4.tgz#770d930739b1a2a5011f0fa6d73355feea25b2c7"
+  integrity sha512-Y4nLSugzHJya/EQYA7M+AC/E/x1X6RcSqNT3KLTV7bW8gGTPadiVDmYnIyh6H9QeQEe2WXMXKE5XjHb3bW4+DA==
   dependencies:
     babel-runtime "^6.26.0"
     chalk "^2.1.0"
