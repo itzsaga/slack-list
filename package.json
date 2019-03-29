@@ -33,7 +33,7 @@
     "gatsby-plugin-sharp": "^2.0.31",
     "gatsby-transformer-sharp": "^2.1.17",
     "node-sass": "^4.9.4",
-    "react": "^16.6.3",
+    "react": "^16.8.6",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0"
   },
