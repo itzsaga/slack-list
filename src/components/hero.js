@@ -46,11 +46,18 @@ class Hero extends Component {
                     Home
                   </Link>
                   <Link
-                    className={`navbar-item ${location === 'about' &&
+                    className={`navbar-item ${location === '/about' &&
                       'is-active'}`}
                     to="/about"
                   >
                     About
+                  </Link>
+                  <Link
+                    className={`navbar-item ${location === '/add' &&
+                      'is-active'}`}
+                    to="/add"
+                  >
+                    Add
                   </Link>
                   <span className="navbar-item">
                     <a
