@@ -23,8 +23,8 @@ export default {
             {
               name: 'Tech256',
               description: 'An open tech community in North Alabama.',
-              url: 'https://tech256.com/#invite'
-            }
+              url: 'https://tech256.com/#invite',
+            },
           ],
         },
         {
@@ -94,7 +94,8 @@ export default {
           iowa: [
             {
               name: 'Startup Iowa Chat',
-              description: "Startup Iowa Chat is your free passport to Iowa's Entrepreneurial Ecosystem.",
+              description:
+                "Startup Iowa Chat is your free passport to Iowa's Entrepreneurial Ecosystem.",
               url: 'http://www.startupiowachat.com/',
             },
           ],
@@ -123,8 +124,9 @@ export default {
           'new york': [
             {
               name: 'BetaNYC',
-              description: 'BetaNYC is a civic organization dedicated to improving lives in New York through civic design, technology, and data.',
-              url: 'http://slack.beta.nyc/'
+              description:
+                'BetaNYC is a civic organization dedicated to improving lives in New York through civic design, technology, and data.',
+              url: 'http://slack.beta.nyc/',
             },
             {
               name: 'NYC Devs',
@@ -142,10 +144,11 @@ export default {
           oklahoma: [
             {
               name: 'Techlahoma',
-              description: 'Techlahoma is a professional network of more than 4,000 information technology workers, hobbyists, students, teachers, and future technologists.',
-              url: 'http://slack.techlahoma.org/'
-            }
-          ]
+              description:
+                'Techlahoma is a professional network of more than 4,000 information technology workers, hobbyists, students, teachers, and future technologists.',
+              url: 'http://slack.techlahoma.org/',
+            },
+          ],
         },
         {
           oregon: [
