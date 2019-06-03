@@ -107,6 +107,15 @@ describe('The List Page', () => {
       it("'Open Austin' link works", () => {
         cy.contains('Open Austin').click()
       })
+      it("'Madison Slack' link works", () => {
+        cy.contains('Madison Slack').click()
+      })
+      it("'Milwaukee Slack' link works", () => {
+        cy.contains('Milwaukee Slack').click()
+      })
+      it("'Northeast WI Slack' link works", () => {
+        cy.contains('Northeast WI Slack').click()
+      })
     })
 
     context('it based', () => {
