@@ -108,6 +108,11 @@ export default {
         {
           'new york': [
             {
+              name: 'BetaNYC',
+              description: 'BetaNYC is a civic organization dedicated to improving lives in New York through civic design, technology, and data.',
+              url: 'http://slack.beta.nyc/'
+            },
+            {
               name: 'NYC Devs',
               description: 'Community of New York City based developers.',
               url: 'http://nycdevs.org/',

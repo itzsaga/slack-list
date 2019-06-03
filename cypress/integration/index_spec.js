@@ -53,6 +53,9 @@ describe('The List Page', () => {
       it("'MidWestDevChat.com' link works", () => {
         cy.contains('MidWestDevChat.com').click()
       })
+      it("'BetaNYC' link works", () => {
+        cy.contains('BetaNYC').click()
+      })
       it("'NYC Devs' link works", () => {
         cy.contains('NYC Devs').click()
       })
