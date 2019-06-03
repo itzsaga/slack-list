@@ -86,6 +86,15 @@ export default {
           ],
         },
         {
+          iowa: [
+            {
+              name: 'Startup Iowa Chat',
+              description: "Startup Iowa Chat is your free passport to Iowa's Entrepreneurial Ecosystem.",
+              url: 'http://www.startupiowachat.com/',
+            },
+          ],
+        },
+        {
           kentucky: [
             {
               name: 'Louisville Tech / Louisville.IO',
