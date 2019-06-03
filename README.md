@@ -24,6 +24,8 @@ This will run a local server and you can browse the site.
 
 ## Contributing
 
+To add networks to the list add the needed information to `./src/data/list.js`. The list page builts from this JSON object. Also make sure you add an appropriate test to `./cypress/integration/idex_spec.js`.
+
 Bug reports and pull requests are welcome on GitHub at https://github.com/itzsaga/slack-list. If you would like to help with this project see our [Contributing](./CONTRIBUTING.md) doc for more info.
 
 ## License
