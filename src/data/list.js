@@ -122,6 +122,11 @@ export default {
         {
           oregon: [
             {
+              name: 'PIG Squad',
+              description: 'The Portland Indie Game Squad.',
+              url: 'https://pigsquadslack.herokuapp.com/'
+            },
+            {
               name: 'Portland Tech',
               description: 'A network for the Portland Tech scene.',
               url: 'http://pdx-startups-slack.herokuapp.com/',
