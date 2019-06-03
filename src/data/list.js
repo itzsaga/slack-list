@@ -32,16 +32,6 @@ export default {
           ],
         },
         {
-          'washington dc': [
-            {
-              name: 'DCTech',
-              description:
-                'A free, public Slack for the Washington, DC Tech community.',
-              url: 'http://www.dctechslack.com/',
-            },
-          ],
-        },
-        {
           colorado: [
             {
               name: 'Denver Devs',
@@ -53,6 +43,16 @@ export default {
               description:
                 'New Tech is a community of 12,000 geeks who live and work in Colorado.',
               url: 'https://reichrobert.typeform.com/to/V0WnZf',
+            },
+          ],
+        },
+        {
+          'Distict of Columbia': [
+            {
+              name: 'DCTech',
+              description:
+                'A free, public Slack for the Washington, DC Tech community.',
+              url: 'http://www.dctechslack.com/',
             },
           ],
         },
@@ -124,7 +124,7 @@ export default {
             {
               name: 'PIG Squad',
               description: 'The Portland Indie Game Squad.',
-              url: 'https://pigsquadslack.herokuapp.com/'
+              url: 'https://pigsquadslack.herokuapp.com/',
             },
             {
               name: 'Portland Tech',

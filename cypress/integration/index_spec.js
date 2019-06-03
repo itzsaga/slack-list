@@ -7,7 +7,7 @@ describe('The List Page', () => {
 
   context('navbar', () => {
     it("'About' link works", () => {
-      cy.contains('About').click({force: true})
+      cy.contains('About').click({ force: true })
       cy.title().should('not.equal', 'Error')
     })
   })
@@ -22,7 +22,6 @@ describe('The List Page', () => {
   })
 
   context('the list', () => {
-
     context('location based', () => {
       it("'DevDK' link works", () => {
         cy.contains('DevDK').click()
@@ -30,14 +29,14 @@ describe('The List Page', () => {
       it("'Software Craftsmanship' link works", () => {
         cy.contains('Software Craftsmanship').click()
       })
-      it("'DCTech' link works", () => {
-        cy.contains('DCTech').click()
-      })
       it("'Denver Devs' link works", () => {
         cy.contains('Denver Devs').click()
       })
       it("'NewTech Colorado' link works", () => {
         cy.contains('NewTech Colorado').click()
+      })
+      it("'DCTech' link works", () => {
+        cy.contains('DCTech').click()
       })
       it("'Suncoast Developers Guild' link works", () => {
         cy.contains('Suncoast Developers Guild').click()
@@ -94,19 +93,19 @@ describe('The List Page', () => {
 
     context('it based', () => {
       it("'Android United' link works", () => {
-        cy.contains("Android United").click()
+        cy.contains('Android United').click()
       })
       it("'APIs You Won't Hate' link works", () => {
         cy.contains("APIs You Won't Hate").click()
       })
       it("'HackerX' link works", () => {
-        cy.contains("HackerX").click()
+        cy.contains('HackerX').click()
       })
       it("'Hangops' link works", () => {
-        cy.contains("Hangops").click()
+        cy.contains('Hangops').click()
       })
       it("'iOS Developers' link works", () => {
-        cy.contains("iOS Developers").click()
+        cy.contains('iOS Developers').click()
       })
     })
 
