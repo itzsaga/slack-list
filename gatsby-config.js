@@ -12,6 +12,9 @@ module.exports = {
         name: 'slack-list',
         short_name: 'slack-list',
         start_url: '/',
+        background_color: '#363636',
+        theme_color: '#1d53aa',
+        display: 'standalone'
       },
     },
     'gatsby-plugin-offline',
