@@ -20,6 +20,11 @@ export default {
                 'Magic City Tech is a group for Birmingham area developers, designers, marketers, business people, hobbyists, students, and other professionals involved in technology.',
               url: 'http://magiccitytech.org/',
             },
+            {
+              name: 'Tech256',
+              description: 'An open tech community in North Alabama.',
+              url: 'https://tech256.com/#invite'
+            }
           ],
         },
         {

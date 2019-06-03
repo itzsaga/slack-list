@@ -26,6 +26,12 @@ describe('The List Page', () => {
       it("'DevDK' link works", () => {
         cy.contains('DevDK').click()
       })
+      it("'Magic City Tech' link works", () => {
+        cy.contains('Magic City Tech').click()
+      })
+      it("'Tech256' link works", () => {
+        cy.contains('Tech256').click()
+      })
       it("'Software Craftsmanship' link works", () => {
         cy.contains('Software Craftsmanship').click()
       })
