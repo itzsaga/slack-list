@@ -139,6 +139,15 @@ export default {
           ],
         },
         {
+          oklahoma: [
+            {
+              name: 'Techlahoma',
+              description: 'Techlahoma is a professional network of more than 4,000 information technology workers, hobbyists, students, teachers, and future technologists.',
+              url: 'http://slack.techlahoma.org/'
+            }
+          ]
+        },
+        {
           oregon: [
             {
               name: 'PIG Squad',
