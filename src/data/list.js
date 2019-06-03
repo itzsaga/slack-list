@@ -30,6 +30,12 @@ export default {
         {
           california: [
             {
+              name: 'js.la',
+              description:
+                'js.la runs events that bring you the best speakers talking about JavaScript and related internet technologies, as well as educational workshops like NodeSchool and general gatherigs like lunch.js.',
+              url: 'https://join-jsla-slack.herokuapp.com/',
+            },
+            {
               name: 'Software Craftsmanship',
               description: 'A network for the Los Angeles tech community',
               url: 'http://slack.softwarecraftsmanship.org/',

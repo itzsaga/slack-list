@@ -32,6 +32,9 @@ describe('The List Page', () => {
       it("'Tech256' link works", () => {
         cy.contains('Tech256').click()
       })
+      it("'js.la' link works", () => {
+        cy.contains('js.la').click()
+      })
       it("'Software Craftsmanship' link works", () => {
         cy.contains('Software Craftsmanship').click()
       })
