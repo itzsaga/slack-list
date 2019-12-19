@@ -1,6 +1,12 @@
 name: Cypress Tests
 
-on: [push, pull_request]
+on:
+  push:
+    branches: 
+      - master
+  pull_request:
+    branches: 
+      - master
 
 jobs:
   test:
@@ -17,7 +23,7 @@ jobs:
       with:
         version: ${{ matrix.node_version }}
     
-    - name: npm install, build, and test
+    - name: install, build, and test
       run: |
         yarn install
         yarn run build --if-present
