@@ -134,6 +134,9 @@ describe('The List Page', () => {
       it("'iOS Developers' link works", () => {
         cy.contains('iOS Developers').click()
       })
+      it("'Rands Leadership link works", () => {
+        cy.contains('Rands Leadership').click()
+      })
     })
 
     context('programming based', () => {
