@@ -1,6 +1,6 @@
 # Slack List
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/itzsaga/slack-list.svg)](https://greenkeeper.io/) [![Github Action Status](https://github.com/itzsaga/slack-list/workflows/Cypress%20Tests/badge.svg)](https://github.com/itzsaga/slack-list/actions) [![Netlify Status](https://api.netlify.com/api/v1/badges/0131d0a9-2061-4dbd-b900-a5f16393ca81/deploy-status)](https://app.netlify.com/sites/telephone-operator-bonnie-31287/deploys)
+![Cypress Tests](https://github.com/itzsaga/slack-list/workflows/Cypress%20Tests/badge.svg) [![Netlify Status](https://api.netlify.com/api/v1/badges/0131d0a9-2061-4dbd-b900-a5f16393ca81/deploy-status)](https://app.netlify.com/sites/telephone-operator-bonnie-31287/deploys) [![Known Vulnerabilities](https://snyk.io/test/github/itzsaga/slack-list/badge.svg)](https://snyk.io/test/github/itzsaga/slack-list)
 
 An open source site listing public Slack networks from around the world.
 
