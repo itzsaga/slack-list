@@ -287,6 +287,11 @@ export default {
       description: 'A Slack community for iOS developers.',
       url: 'https://ios-developers.io/',
     },
+    {
+      name: 'Rands Leadership',
+      description: 'The Rands Leadership Slack exists to help longtime, new, and aspiring leaders in tech and tech-adjacent spaces to learn through conversation and sharing of ideas.',
+      url: 'https://randsinrepose.com/welcome-to-rands-leadership-slack/',
+    }
   ],
   productBased: [],
   programmingBased: [
