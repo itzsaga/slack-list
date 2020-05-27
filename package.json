@@ -41,7 +41,7 @@
     "snyk": "^1.320.1"
   },
   "devDependencies": {
-    "cypress": "^4.2.0",
+    "cypress": "^4.7.0",
     "prettier": "^2.0.2"
   },
   "snyk": true
