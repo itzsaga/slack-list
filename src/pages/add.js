@@ -14,7 +14,7 @@ const AboutPage = ({ location: { pathname } }) => {
     fetch('https://api.github.com/repos/itzsaga/slack-list/issues', {
       method: 'POST',
       headers: {
-        Authorization: `token ${process.env.GITHUB_OAUTH_KEY}`,
+        Authorization: `token ${process.env.GATSBY_GITHUB_OAUTH_KEY}`,
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(data),
