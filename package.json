@@ -38,7 +38,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.0.0",
-    "snyk": "^1.320.2"
+    "snyk": "^1.334.0"
   },
   "devDependencies": {
     "cypress": "^4.2.0",
