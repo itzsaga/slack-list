@@ -7,7 +7,9 @@
     "test": "yarn develop & cypress run",
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"src/**/*.js\""
+    "format": "prettier --write \"src/**/*.js\"",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -25,20 +27,22 @@
   "dependencies": {
     "bulma": "^0.8.1",
     "font-awesome": "^4.7.0",
-    "gatsby": "^2.20.4",
-    "gatsby-plugin-manifest": "^2.3.3",
+    "gatsby": "^2.21.24",
+    "gatsby-plugin-manifest": "^2.3.6",
     "gatsby-plugin-offline": "^2.2.10",
-    "gatsby-plugin-react-helmet": "^3.1.22",
-    "gatsby-plugin-sass": "^2.1.29",
-    "gatsby-plugin-sharp": "^2.5.3",
-    "gatsby-transformer-sharp": "^2.4.3",
-    "node-sass": "^4.13.1",
+    "gatsby-plugin-react-helmet": "^3.3.1",
+    "gatsby-plugin-sass": "^2.2.2",
+    "gatsby-plugin-sharp": "^2.5.5",
+    "gatsby-transformer-sharp": "^2.4.7",
+    "node-sass": "^4.14.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^6.0.0",
+    "snyk": "^1.334.0"
   },
   "devDependencies": {
     "cypress": "^4.2.0",
     "prettier": "^2.0.5"
-  }
+  },
+  "snyk": true
 }
