@@ -202,6 +202,16 @@ export default {
         {
           tennessee: [
             {
+              name: 'Boro.Dev',
+              description: 'Boro.Dev is a collection of top web and app development talent in and around Murfreesboro, TN. Our goal is to continually learn and grow as developers and ultimately establish Murfreesboro as a tech hub. We\'re a supportive resource for aspiring, growing, and experienced developers alike.',
+              url: 'https://slack.boro.dev/'
+            },
+            {
+              name: 'KnoxDev',
+              description: 'Knoxvilles Development Gathering',
+              url: 'https://knoxdevs.com',
+            },
+            {
               name: 'memtech',
               description: 'Memphis technical community chat.',
               url: 'http://slack.memphistechnology.org/',
@@ -210,11 +220,6 @@ export default {
               name: 'NashDev',
               description: 'A network for Nashville developers.',
               url: 'https://nashdev.com',
-            },
-            {
-              name: 'KnoxDev',
-              description: 'Knoxvilles Development Gathering',
-              url: 'https://knoxdevs.com',
             },
           ],
         },
