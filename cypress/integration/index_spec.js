@@ -95,14 +95,17 @@ describe('The List Page', () => {
       it("'Charleston Tech' link works", () => {
         cy.contains('Charleston Tech').click()
       })
+      it("'Boro.Dev' link works", () => {
+        cy.contains('Boro.Dev').click()
+      })
+      it("'KnoxDev' link works", () => {
+        cy.contains('KnoxDev').click()
+      })
       it("'memtech' link works", () => {
         cy.contains('memtech').click()
       })
       it("'NashDev' link works", () => {
         cy.contains('NashDev').click()
-      })
-      it("'KnoxDev' link works", () => {
-        cy.contains('KnoxDev').click()
       })
       it("'DFWStartupCommunity' link works", () => {
         cy.contains('DFWStartupCommunity').click()
