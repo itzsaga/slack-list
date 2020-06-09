@@ -109,6 +109,11 @@ export default {
         {
           kentucky: [
             {
+              name: 'Bluegrass Developers Guild',
+              description: 'Our purpose is to promote a sense of community among local technology organizations and their members. We seek to improve communication between leaders, centralize efforts, improve culture, and to support our members in a way that strengthens our community and promotes the common good.',
+              url: 'https://www.bluegrassdevs.org/',
+            },
+            {
               name: 'Louisville Tech / Louisville.IO',
               description:
                 'a community of technology user groups and meetups in Louisville, Kentucky.',
