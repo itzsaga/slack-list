@@ -313,5 +313,11 @@ export default {
   ],
   hardwareBased: [],
   financeAndMarketingBased: [],
-  miscellaneousBased: [],
+  miscellaneousBased: [
+    {
+      name: 'Penny University',
+      description: 'A community of social learners. Sometimes you have questions that can\'t be answered by StackOverflow or a blog post, and you need to have a real conversation with a human. Penny University provides a platform where you can learn and share knowledge with your peers.',
+      url: 'https://www.pennyuniversity.org/'
+    }
+  ],
 }

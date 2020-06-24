@@ -28,6 +28,14 @@ const IndexPage = ({ location: { pathname } }) => (
               <ListItem item={network} key={network.url} />
             ))}
           </ul>
+          <div id="miscellaneous">
+            <h2>Networks Based around Miscellaneous Topics</h2>
+          </div>
+          <ul>
+            {list.miscellaneousBased.map(network => (
+              <ListItem item={network} key={network.url} />
+            ))}
+          </ul>
         </div>
       </div>
     </section>

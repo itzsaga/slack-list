@@ -113,7 +113,7 @@ class Hero extends Component {
                   </li>
                   <li>
                     {/* eslint-disable-next-line */}
-                    <a href="#">Miscellaneous Based</a>
+                    <a href="#miscellaneous">Miscellaneous Based</a>
                   </li>
                 </ul>
               </div>
