@@ -150,5 +150,11 @@ describe('The List Page', () => {
         cy.contains('Larachat').click()
       })
     })
+
+    context('miscellaneous based', () => {
+      it("'Penny University' link works", () => {
+        cy.contains('Penny University').click()
+      })
+    })
   })
 })
