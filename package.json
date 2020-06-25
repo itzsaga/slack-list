@@ -27,7 +27,7 @@
   "dependencies": {
     "bulma": "^0.8.1",
     "font-awesome": "^4.7.0",
-    "gatsby": "^2.21.24",
+    "gatsby": "^2.22.20",
     "gatsby-plugin-manifest": "^2.3.6",
     "gatsby-plugin-offline": "^2.2.10",
     "gatsby-plugin-react-helmet": "^3.3.1",
