@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.1
+version: v1.19.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -2196,3 +2196,11 @@ patch:
         patched: '2020-06-03T12:49:51.319Z'
     - gatsby > gatsby-admin > gatsby > gatsby-cli > gatsby-recipes > graphql-tools > @graphql-tools/relay-operation-optimizer > relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         patched: '2020-06-03T12:49:51.319Z'
+    - gatsby > gatsby-cli > gatsby-recipes > concurrently > lodash:
+        patched: '2020-08-12T16:49:05.179Z'
+    - gatsby > gatsby-cli > gatsby-recipes > contentful-management > lodash:
+        patched: '2020-08-12T16:49:05.179Z'
+    - gatsby > gatsby-cli > gatsby-recipes > formik > lodash:
+        patched: '2020-08-12T16:49:05.179Z'
+    - gatsby > gatsby-cli > gatsby-recipes > yup > lodash:
+        patched: '2020-08-12T16:49:05.179Z'
