@@ -2204,3 +2204,9 @@ patch:
         patched: '2020-08-12T16:49:05.179Z'
     - gatsby > gatsby-cli > gatsby-recipes > yup > lodash:
         patched: '2020-08-12T16:49:05.179Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-09-06T15:48:26.972Z'
+    - snyk > snyk-cpp-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-09-06T15:48:26.972Z'
+    - snyk > snyk-gradle-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-09-06T15:48:26.972Z'
