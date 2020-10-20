@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/itzsaga/slack-list#readme",
   "dependencies": {
-    "bulma": "^0.9.0",
+    "bulma": "^0.9.1",
     "font-awesome": "^4.7.0",
     "gatsby": "^2.24.54",
     "gatsby-plugin-manifest": "^2.4.29",
