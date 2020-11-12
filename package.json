@@ -27,11 +27,11 @@
   "dependencies": {
     "bulma": "^0.9.0",
     "font-awesome": "^4.7.0",
-    "gatsby": "^2.24.54",
+    "gatsby": "^2.24.84",
     "gatsby-plugin-manifest": "^2.4.29",
     "gatsby-plugin-offline": "^2.2.10",
     "gatsby-plugin-react-helmet": "^3.3.11",
-    "gatsby-plugin-sass": "^2.3.13",
+    "gatsby-plugin-sass": "^2.3.20",
     "gatsby-plugin-sharp": "^2.6.36",
     "gatsby-transformer-sharp": "^2.5.14",
     "node-sass": "^4.14.0",
