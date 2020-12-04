@@ -30,7 +30,7 @@
     "gatsby": "^2.24.54",
     "gatsby-plugin-manifest": "^2.4.36",
     "gatsby-plugin-offline": "^2.2.10",
-    "gatsby-plugin-react-helmet": "^3.3.11",
+    "gatsby-plugin-react-helmet": "^3.4.0",
     "gatsby-plugin-sass": "^2.3.13",
     "gatsby-plugin-sharp": "^2.7.0",
     "gatsby-transformer-sharp": "^2.5.20",
