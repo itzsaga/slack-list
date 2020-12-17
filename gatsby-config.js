@@ -14,7 +14,8 @@ module.exports = {
         start_url: '/',
         background_color: '#363636',
         theme_color: '#1d53aa',
-        display: 'standalone'
+        display: 'standalone',
+        icon: 'src/icons/android-chrome-512x512.png'
       },
     },
     'gatsby-plugin-offline',
