@@ -1,4 +1,4 @@
-# README
+# Slack List
 
 ![Cypress Tests](https://github.com/itzsaga/slack-list/workflows/Cypress%20Tests/badge.svg) [![Netlify Status](https://api.netlify.com/api/v1/badges/0131d0a9-2061-4dbd-b900-a5f16393ca81/deploy-status)](https://app.netlify.com/sites/telephone-operator-bonnie-31287/deploys) [![Known Vulnerabilities](https://snyk.io/test/github/itzsaga/slack-list/badge.svg)](https://snyk.io/test/github/itzsaga/slack-list)
 

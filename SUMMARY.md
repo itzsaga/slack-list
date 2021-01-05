@@ -1,4 +1,4 @@
 # Table of contents
 
-* [README](README.md)
+* [Slack List](README.md)
 
