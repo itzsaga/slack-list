@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import Layout from '../components/layout'
 
-const AboutPage = ({ location: { pathname } }) => {
+const AddPage = ({ location: { pathname } }) => {
   const [name, setName] = useState('')
   const [description, setDescription] = useState('')
   const [url, setUrl] = useState('')
@@ -41,11 +41,11 @@ const AboutPage = ({ location: { pathname } }) => {
         <div className="container">
           <div className="content">
             <h2>Add A Slack Network</h2>
-            <div class="field">
-              <label class="label">Network Name</label>
-              <div class="control">
+            <div className="field">
+              <label className="label">Network Name</label>
+              <div className="control">
                 <input
-                  class="input"
+                  className="input"
                   type="text"
                   placeholder="Network name"
                   value={name}
@@ -54,12 +54,11 @@ const AboutPage = ({ location: { pathname } }) => {
                 />
               </div>
             </div>
-            <div class="field">
-              <label class="label">Description</label>
-              <div class="control">
+            <div className="field">
+              <label className="label">Description</label>
+              <div className="control">
                 <textarea
-                  class="textarea"
-                  type="text"
+                  className="textarea"
                   placeholder="A short description"
                   value={description}
                   onChange={e => setDescription(e.target.value)}
@@ -67,11 +66,11 @@ const AboutPage = ({ location: { pathname } }) => {
                 />
               </div>
             </div>
-            <div class="field">
-              <label class="label">URL</label>
-              <div class="control">
+            <div className="field">
+              <label className="label">URL</label>
+              <div className="control">
                 <input
-                  class="input"
+                  className="input"
                   type="text"
                   placeholder="https://invite.url"
                   value={url}
@@ -79,12 +78,12 @@ const AboutPage = ({ location: { pathname } }) => {
                   required
                 />
               </div>
-              <p class="help">
+              <p className="help">
                 Please provide the direct link to the invite form
               </p>
             </div>
-            <div class="control">
-              <button class="button is-primary" onClick={handleSubmit}>
+            <div className="control">
+              <button className="button is-primary" onClick={handleSubmit}>
                 Submit
               </button>
             </div>
@@ -92,14 +91,14 @@ const AboutPage = ({ location: { pathname } }) => {
         </div>
       </section>
       {success && (
-        <div class="notification is-success">
-          <button class="delete" onClick={setSuccess(false)} />
+        <div className="notification is-success">
+          <button className="delete" onClick={setSuccess(false)} />
           Successfully submitted network for addition.
         </div>
       )}
       {error && (
-        <div class="notification is-danger">
-          <button class="delete" onClick={setError(false)} />
+        <div className="notification is-danger">
+          <button className="delete" onClick={setError(false)} />
           Something went wrong. Please try again.
         </div>
       )}
@@ -107,4 +106,4 @@ const AboutPage = ({ location: { pathname } }) => {
   )
 }
 
-export default AboutPage
+export default AddPage;
