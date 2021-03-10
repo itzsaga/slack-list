@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import Layout from '../components/layout'
 
-const AddPage = ({ location: { pathname } }) => {
+const Add = ({ location: { pathname } }) => {
   const [name, setName] = useState('')
   const [description, setDescription] = useState('')
   const [url, setUrl] = useState('')
@@ -106,4 +106,4 @@ const AddPage = ({ location: { pathname } }) => {
   )
 }
 
-export default AddPage;
+export default Add;
