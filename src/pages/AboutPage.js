@@ -22,7 +22,7 @@ const AboutPage = ({ location: { pathname }}) => (
             Assistant for them. I consistently would mention the{' '}
             <a
               href="https://nashdev.com"
-              taget="_blank"
+              target="_blank"
               rel="noopener noreferrer"
             >
               NashDev Slack network

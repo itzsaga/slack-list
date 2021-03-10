@@ -19,6 +19,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
-    { resolve: 'gatsby-plugin-sass', options: { indentedSyntax: true }}
+    { resolve: 'gatsby-plugin-sass', sassOptions: { indentedSyntax: true }}
   ],
 }
