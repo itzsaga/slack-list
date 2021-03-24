@@ -9,6 +9,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"src/**/*.js\"",
     "snyk-protect": "snyk protect",
+    "start": "serve public --listen 8080",
     "prepare": "yarn run snyk-protect"
   },
   "repository": {
@@ -42,7 +43,8 @@
   },
   "devDependencies": {
     "cypress": "^6.6.0",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "serve": "^11.3.2"
   },
   "snyk": true
 }
