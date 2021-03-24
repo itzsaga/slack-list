@@ -9,7 +9,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"src/**/*.js\"",
     "snyk-protect": "snyk protect",
-    "start": "serve public --listen 8080",
+    "start": "serve public --listen 8000",
     "prepare": "yarn run snyk-protect"
   },
   "repository": {
