@@ -1,6 +1,17 @@
 export default {
   locationBased: [
     {
+      africa: [
+        {
+          name: 'AfriSplash Remotely',
+          description: 'Africa’s #1 remote work community promoting diversity in the global remote workforce through African talents. Join the community, connect with creative talents, share your openings and build a world-class team based on mutual trust.\n' +
+            '\n' +
+            'AfriSplash Remotely - Live, Work and Succeed from Anywhere 🌍',
+          url: 'http://bit.ly/afrisplashremotely2021'
+        }
+      ]
+    },
+    {
       denmark: [
         {
           name: 'DevDK',

@@ -23,6 +23,9 @@ describe('The List Page', () => {
 
   context('the list', () => {
     context('location based', () => {
+      it("'AfriSplash Remotely' link works", () => {
+        cy.contains('AfriSplash Remotely').click()
+      })
       it("'DevDK' link works", () => {
         cy.contains('DevDK').click()
       })
