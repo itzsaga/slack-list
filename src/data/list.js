@@ -99,6 +99,15 @@ export default {
           ],
         },
         {
+          Idaho: [
+            {
+              name: 'Idaho Tech Community',
+              description: 'Idaho Tech Community',
+              url: 'https://idahotech.community/',
+            },
+          ],
+        },
+        {
           illinois: [
             {
               name: 'Chicago Tech',
