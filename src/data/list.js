@@ -330,6 +330,11 @@ export default {
       description: 'Talk to some of the best Laravel minds on the web today.',
       url: 'https://larachat.co/slack',
     },
+    {
+      name: "Prisma",
+      description: "Get the latest news and feedbacks on Prisma, the next generation Node.js and TypeScript ORM",
+      url: 'https://slack.prisma.io/'
+    }
   ],
   hardwareBased: [],
   financeAndMarketingBased: [],
