@@ -155,6 +155,9 @@ describe('The List Page', () => {
       it("'Larachat' link works", () => {
         cy.contains('Larachat').click()
       })
+      it("'Prisma' link works", () => {
+        cy.contains('Prisma').click()
+      })
     })
 
     context('miscellaneous based', () => {
