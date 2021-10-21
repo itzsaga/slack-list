@@ -26,6 +26,12 @@ describe('The List Page', () => {
       it("'AfriSplash Remotely' link works", () => {
         cy.contains('AfriSplash Remotely').click()
       })
+      it("'EuropeanStartups' link works", () => {
+        cy.contains('EuropeanStartups').click()
+      })
+      it("'EuropeanDevExplorer' link works", () => {
+        cy.contains('EuropeanDevExplorer').click()
+      })
       it("'DevDK' link works", () => {
         cy.contains('DevDK').click()
       })

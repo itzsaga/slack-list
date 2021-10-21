@@ -12,6 +12,20 @@ export default {
       ]
     },
     {
+      europe: [
+        {
+          name: "EuropeanStartups",
+          description: "Learn from others devs about best European cities and ask questions. Share experiences about living and working in different European cities.",
+          url: "https://europeanstartups.typeform.com/to/K3rhOT"
+        },
+        {
+          name: "EuropeanDevExplorer",
+          description: "Engage with founders and investors from across Europe. #EuropeanStartups facilitates discussions, Q&A’s, AMAs, feedback and braintrusts.",
+          url: "https://europeandevexplorer.typeform.com/to/MC3qnG?typeform-source=blog.honeypot.io"
+        },
+      ]
+    },
+    {
       denmark: [
         {
           name: 'DevDK',
