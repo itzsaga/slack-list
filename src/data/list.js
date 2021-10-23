@@ -7,7 +7,7 @@ export default {
           description: 'Africa’s #1 remote work community promoting diversity in the global remote workforce through African talents. Join the community, connect with creative talents, share your openings and build a world-class team based on mutual trust.\n' +
             '\n' +
             'AfriSplash Remotely - Live, Work and Succeed from Anywhere 🌍',
-          url: 'http://bit.ly/afrisplashremotely2021'
+          url: 'https://bit.ly/afrisplashremotely2021'
         }
       ]
     },
@@ -31,7 +31,7 @@ export default {
           name: 'DevDK',
           description:
             'Dansk digitalt community — Arrangør af One Day Out, stifter af #devdk — For et bedre community i Danmark',
-          url: 'http://slack.devdk.org/',
+          url: 'https://slack.devdk.org/',
         },
       ],
     },
@@ -108,7 +108,7 @@ export default {
               name: 'TECH404',
               description:
                 'Chat channels for Atlanta area developers, designers, marketers, business people, hobbyists, students, and other professionals involved in technology.',
-              url: 'http://tech404.io/',
+              url: 'https://tech404.io/',
             },
           ],
         },
@@ -126,7 +126,7 @@ export default {
             {
               name: 'Chicago Tech',
               description: 'Chicago tech gang',
-              url: 'http://chicagotech.herokuapp.com/',
+              url: 'https://chicagotech.herokuapp.com/',
             },
           ],
         },
@@ -181,7 +181,7 @@ export default {
             {
               name: 'NYCTech',
               description: 'A network for the New York Tech scene.',
-              url: 'http://www.nyctechslack.com/',
+              url: 'https://www.nyctechslack.com/',
             },
           ],
         },
@@ -191,7 +191,7 @@ export default {
               name: 'Techlahoma',
               description:
                 'Techlahoma is a professional network of more than 4,000 information technology workers, hobbyists, students, teachers, and future technologists.',
-              url: 'http://slack.techlahoma.org/',
+              url: 'https://slack.techlahoma.org/',
             },
           ],
         },
