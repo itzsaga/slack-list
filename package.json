@@ -8,7 +8,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"src/**/*.js\"",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "start": "serve public --listen 8000",
     "prepare": "yarn run snyk-protect"
   },
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/itzsaga/slack-list#readme",
   "dependencies": {
+    "@snyk/protect": "^1.881.0",
     "bulma": "^0.9.3",
     "font-awesome": "^4.7.0",
     "gatsby": "^4.8.1",
@@ -38,13 +39,12 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
-    "sass": "^1.49.8",
-    "snyk": "^1.855.0"
+    "sass": "^1.49.8"
   },
   "devDependencies": {
-    "cypress": "^6.6.0",
-    "prettier": "^2.0.5",
-    "serve": "^11.3.2"
+    "cypress": "^9.5.2",
+    "prettier": "^2.6.0",
+    "serve": "^13.0.2"
   },
   "snyk": true
 }

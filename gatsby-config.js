@@ -15,10 +15,10 @@ module.exports = {
         background_color: '#363636',
         theme_color: '#1d53aa',
         display: 'standalone',
-        icon: 'src/icons/android-chrome-512x512.png'
+        icon: 'src/icons/android-chrome-512x512.png',
       },
     },
     'gatsby-plugin-offline',
-    { resolve: 'gatsby-plugin-sass', sassOptions: { indentedSyntax: true }}
+    { resolve: 'gatsby-plugin-sass', sassOptions: { indentedSyntax: true } },
   ],
 }

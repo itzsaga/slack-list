@@ -4,26 +4,29 @@ export default {
       africa: [
         {
           name: 'AfriSplash Remotely',
-          description: 'Africa’s #1 remote work community promoting diversity in the global remote workforce through African talents. Join the community, connect with creative talents, share your openings and build a world-class team based on mutual trust.\n' +
+          description:
+            'Africa’s #1 remote work community promoting diversity in the global remote workforce through African talents. Join the community, connect with creative talents, share your openings and build a world-class team based on mutual trust.\n' +
             '\n' +
             'AfriSplash Remotely - Live, Work and Succeed from Anywhere 🌍',
-          url: 'https://bit.ly/afrisplashremotely2021'
-        }
-      ]
+          url: 'https://bit.ly/afrisplashremotely2021',
+        },
+      ],
     },
     {
       europe: [
         {
-          name: "EuropeanStartups",
-          description: "Learn from others devs about best European cities and ask questions. Share experiences about living and working in different European cities.",
-          url: "https://europeanstartups.typeform.com/to/K3rhOT"
+          name: 'EuropeanStartups',
+          description:
+            'Learn from others devs about best European cities and ask questions. Share experiences about living and working in different European cities.',
+          url: 'https://europeanstartups.typeform.com/to/K3rhOT',
         },
         {
-          name: "EuropeanDevExplorer",
-          description: "Engage with founders and investors from across Europe. #EuropeanStartups facilitates discussions, Q&A’s, AMAs, feedback and braintrusts.",
-          url: "https://europeandevexplorer.typeform.com/to/MC3qnG?typeform-source=blog.honeypot.io"
+          name: 'EuropeanDevExplorer',
+          description:
+            'Engage with founders and investors from across Europe. #EuropeanStartups facilitates discussions, Q&A’s, AMAs, feedback and braintrusts.',
+          url: 'https://europeandevexplorer.typeform.com/to/MC3qnG?typeform-source=blog.honeypot.io',
         },
-      ]
+      ],
     },
     {
       denmark: [
@@ -144,7 +147,8 @@ export default {
           kentucky: [
             {
               name: 'Bluegrass Developers Guild',
-              description: 'Our purpose is to promote a sense of community among local technology organizations and their members. We seek to improve communication between leaders, centralize efforts, improve culture, and to support our members in a way that strengthens our community and promotes the common good.',
+              description:
+                'Our purpose is to promote a sense of community among local technology organizations and their members. We seek to improve communication between leaders, centralize efforts, improve culture, and to support our members in a way that strengthens our community and promotes the common good.',
               url: 'https://www.bluegrassdevs.org/',
             },
             {
@@ -242,8 +246,9 @@ export default {
           tennessee: [
             {
               name: 'Boro.Dev',
-              description: 'Boro.Dev is a collection of top web and app development talent in and around Murfreesboro, TN. Our goal is to continually learn and grow as developers and ultimately establish Murfreesboro as a tech hub. We\'re a supportive resource for aspiring, growing, and experienced developers alike.',
-              url: 'https://slack.boro.dev/'
+              description:
+                "Boro.Dev is a collection of top web and app development talent in and around Murfreesboro, TN. Our goal is to continually learn and grow as developers and ultimately establish Murfreesboro as a tech hub. We're a supportive resource for aspiring, growing, and experienced developers alike.",
+              url: 'https://slack.boro.dev/',
             },
             {
               name: 'KnoxDev',
@@ -333,9 +338,10 @@ export default {
     },
     {
       name: 'Rands Leadership',
-      description: 'The Rands Leadership Slack exists to help longtime, new, and aspiring leaders in tech and tech-adjacent spaces to learn through conversation and sharing of ideas.',
+      description:
+        'The Rands Leadership Slack exists to help longtime, new, and aspiring leaders in tech and tech-adjacent spaces to learn through conversation and sharing of ideas.',
       url: 'https://randsinrepose.com/welcome-to-rands-leadership-slack/',
-    }
+    },
   ],
   productBased: [],
   programmingBased: [
@@ -345,18 +351,20 @@ export default {
       url: 'https://larachat.co/slack',
     },
     {
-      name: "Prisma",
-      description: "Get the latest news and feedbacks on Prisma, the next generation Node.js and TypeScript ORM",
-      url: 'https://slack.prisma.io/'
-    }
+      name: 'Prisma',
+      description:
+        'Get the latest news and feedbacks on Prisma, the next generation Node.js and TypeScript ORM',
+      url: 'https://slack.prisma.io/',
+    },
   ],
   hardwareBased: [],
   financeAndMarketingBased: [],
   miscellaneousBased: [
     {
       name: 'Penny University',
-      description: 'A community of social learners. Sometimes you have questions that can\'t be answered by StackOverflow or a blog post, and you need to have a real conversation with a human. Penny University provides a platform where you can learn and share knowledge with your peers.',
-      url: 'https://www.pennyuniversity.org/'
-    }
+      description:
+        "A community of social learners. Sometimes you have questions that can't be answered by StackOverflow or a blog post, and you need to have a real conversation with a human. Penny University provides a platform where you can learn and share knowledge with your peers.",
+      url: 'https://www.pennyuniversity.org/',
+    },
   ],
 }
