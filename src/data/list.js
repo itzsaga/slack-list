@@ -24,8 +24,7 @@ export default {
           name: 'EuropeanDevExplorer',
           description:
             'Engage with founders and investors from across Europe. #EuropeanStartups facilitates discussions, Q&A’s, AMAs, feedback and braintrusts.',
-          url:
-            'https://europeandevexplorer.typeform.com/to/MC3qnG?typeform-source=blog.honeypot.io',
+          url: 'https://europeandevexplorer.typeform.com/to/MC3qnG?typeform-source=blog.honeypot.io',
         },
       ],
     },
