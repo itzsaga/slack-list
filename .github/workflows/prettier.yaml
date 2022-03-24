@@ -14,6 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: actionsx/prettier@v2
+    - uses: creyD/prettier_action@v4.2
       with:
-        args: --check .
+        prettier_options: --check .
