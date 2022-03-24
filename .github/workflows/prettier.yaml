@@ -14,10 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Use Node.js 14.16.0
-      uses: actions/setup-node@v2
-      with:
-        node-version: 14.16.0
     - uses: creyD/prettier_action@v4.2
       with:
         prettier_options: --check .
