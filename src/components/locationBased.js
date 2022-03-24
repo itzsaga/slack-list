@@ -7,11 +7,11 @@ const LocationBased = ({ locationBased }) => (
       <h2>Networks Based around a Location</h2>
     </div>
     <ul>
-      {locationBased.map(country => {
+      {locationBased.map((country) => {
         let slackNetworks
         const countryName = Object.keys(country)[0]
         if (countryName !== 'united states') {
-          slackNetworks = country[countryName].map(network => (
+          slackNetworks = country[countryName].map((network) => (
             <li>
               <a href={network.url} target="_blank" rel="noopener noreferrer">
                 {network.name}
@@ -20,9 +20,9 @@ const LocationBased = ({ locationBased }) => (
             </li>
           ))
         } else {
-          slackNetworks = country[countryName].map(state => {
+          slackNetworks = country[countryName].map((state) => {
             const stateName = Object.keys(state)[0]
-            const stateNetworks = state[stateName].map(network => (
+            const stateNetworks = state[stateName].map((network) => (
               <li>
                 <a href={network.url} target="_blank" rel="noopener noreferrer">
                   {network.name}

@@ -21,8 +21,9 @@ class Hero extends Component {
                 </Link>
                 <span
                   role="button"
-                  className={`navbar-burger ${this.state.burgerOpen &&
-                    'is-active'}`}
+                  className={`navbar-burger ${
+                    this.state.burgerOpen && 'is-active'
+                  }`}
                   aria-label="menu"
                   aria-expanded="false"
                   data-target="nabbarMenuHeroA"
@@ -34,8 +35,9 @@ class Hero extends Component {
                 </span>
               </div>
               <div
-                className={`navbar-menu  ${this.state.burgerOpen &&
-                  'is-active'}`}
+                className={`navbar-menu  ${
+                  this.state.burgerOpen && 'is-active'
+                }`}
                 id="navbarMenuHeroA"
               >
                 <div className="navbar-end">
@@ -46,15 +48,17 @@ class Hero extends Component {
                     Home
                   </Link>
                   <Link
-                    className={`navbar-item ${location === '/about' &&
-                      'is-active'}`}
+                    className={`navbar-item ${
+                      location === '/about' && 'is-active'
+                    }`}
                     to="/about"
                   >
                     About
                   </Link>
                   <Link
-                    className={`navbar-item ${location === '/add' &&
-                      'is-active'}`}
+                    className={`navbar-item ${
+                      location === '/add' && 'is-active'
+                    }`}
                     to="/add"
                   >
                     Add

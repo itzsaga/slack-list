@@ -19,7 +19,7 @@ const Add = ({ location: { pathname } }) => {
       },
       body: JSON.stringify(data),
     })
-      .then(r => {
+      .then((r) => {
         if (r.status === 201) {
           setName('')
           setDescription('')
@@ -49,7 +49,7 @@ const Add = ({ location: { pathname } }) => {
                   type="text"
                   placeholder="Network name"
                   value={name}
-                  onChange={e => setName(e.target.value)}
+                  onChange={(e) => setName(e.target.value)}
                   required
                 />
               </div>
@@ -61,7 +61,7 @@ const Add = ({ location: { pathname } }) => {
                   className="textarea"
                   placeholder="A short description"
                   value={description}
-                  onChange={e => setDescription(e.target.value)}
+                  onChange={(e) => setDescription(e.target.value)}
                   required
                 />
               </div>
@@ -74,7 +74,7 @@ const Add = ({ location: { pathname } }) => {
                   type="text"
                   placeholder="https://invite.url"
                   value={url}
-                  onChange={e => setUrl(e.target.value)}
+                  onChange={(e) => setUrl(e.target.value)}
                   required
                 />
               </div>
@@ -106,4 +106,4 @@ const Add = ({ location: { pathname } }) => {
   )
 }
 
-export default Add;
+export default Add

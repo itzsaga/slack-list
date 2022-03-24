@@ -16,7 +16,7 @@ const IndexPage = ({ location: { pathname } }) => (
             <h2>Networks Based around IT</h2>
           </div>
           <ul>
-            {list.itBased.map(network => (
+            {list.itBased.map((network) => (
               <ListItem item={network} key={network.url} />
             ))}
           </ul>
@@ -24,7 +24,7 @@ const IndexPage = ({ location: { pathname } }) => (
             <h2>Networks Based around Programming</h2>
           </div>
           <ul>
-            {list.programmingBased.map(network => (
+            {list.programmingBased.map((network) => (
               <ListItem item={network} key={network.url} />
             ))}
           </ul>
@@ -32,7 +32,7 @@ const IndexPage = ({ location: { pathname } }) => (
             <h2>Networks Based around Miscellaneous Topics</h2>
           </div>
           <ul>
-            {list.miscellaneousBased.map(network => (
+            {list.miscellaneousBased.map((network) => (
               <ListItem item={network} key={network.url} />
             ))}
           </ul>

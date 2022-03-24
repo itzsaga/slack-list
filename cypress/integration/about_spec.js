@@ -5,7 +5,7 @@ describe('The About Page', () => {
   it('successfully loads', () => {})
   context('navbar', () => {
     it("'Home' link works", () => {
-      cy.contains('Home').click({force: true})
+      cy.contains('Home').click({ force: true })
       cy.title().should('not.equal', 'Error')
     })
   })

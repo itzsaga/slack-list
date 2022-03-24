@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../components/layout'
 
-const AboutPage = ({ location: { pathname }}) => (
+const AboutPage = ({ location: { pathname } }) => (
   <Layout location={pathname}>
     <section className="section">
       <div className="container">
