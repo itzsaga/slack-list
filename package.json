@@ -29,7 +29,7 @@
     "@snyk/protect": "^1.881.0",
     "bulma": "^0.9.3",
     "font-awesome": "^4.7.0",
-    "gatsby": "^4.8.1",
+    "gatsby": "^4.10.2",
     "gatsby-plugin-manifest": "^4.9.1",
     "gatsby-plugin-offline": "^5.9.1",
     "gatsby-plugin-react-helmet": "^5.10.0",
