@@ -2712,10 +2712,10 @@
     escape-string-regexp "^2.0.0"
     lodash.deburr "^4.1.0"
 
-"@snyk/protect@^1.881.0":
-  version "1.881.0"
-  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.881.0.tgz#cf0d14622040e68f9ce323f860d015249c60256f"
-  integrity sha512-zkYDqCrMV5C0obqidRwwyV39QNv/KIi903xs5ou5GQw8xy/QIdOSwCE8EdrRkR/lup/RQUWJiDD7vye3TBC8PQ==
+"@snyk/protect@^1.883.0":
+  version "1.906.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.906.0.tgz#4ff306a7f79d1b797a44b760f197f658cb142d3b"
+  integrity sha512-klT+LMCbAwkCkseJ5njqg1oQO5i1KHSnn0TUvsf1HgERCfwmBKWvZBLMGIKqf+tfpWrHiCAggDZDOM/7MHoMrw==
 
 "@swc/helpers@^0.3.6":
   version "0.3.8"
