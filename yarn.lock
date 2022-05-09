@@ -2719,10 +2719,10 @@
     escape-string-regexp "^2.0.0"
     lodash.deburr "^4.1.0"
 
-"@snyk/protect@^1.883.0":
-  version "1.906.0"
-  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.906.0.tgz#4ff306a7f79d1b797a44b760f197f658cb142d3b"
-  integrity sha512-klT+LMCbAwkCkseJ5njqg1oQO5i1KHSnn0TUvsf1HgERCfwmBKWvZBLMGIKqf+tfpWrHiCAggDZDOM/7MHoMrw==
+"@snyk/protect@^1.907.0":
+  version "1.922.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.922.0.tgz#3d56da55f0f0a0bc7e5a8811c4a315bea9d77830"
+  integrity sha512-DC6LJu3wfLW9T5LZou++HlIXIhQzIwFWJ7zA5iBIn0i5UQHzsIJU6r9msAhT7YE45WEeBidsNAQXbxolkGBxyg==
 
 "@swc/helpers@^0.3.6":
   version "0.3.8"
