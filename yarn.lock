@@ -3233,10 +3233,10 @@
     escape-string-regexp "^2.0.0"
     lodash.deburr "^4.1.0"
 
-"@snyk/protect@^1.907.0":
-  version "1.922.0"
-  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.922.0.tgz#3d56da55f0f0a0bc7e5a8811c4a315bea9d77830"
-  integrity sha512-DC6LJu3wfLW9T5LZou++HlIXIhQzIwFWJ7zA5iBIn0i5UQHzsIJU6r9msAhT7YE45WEeBidsNAQXbxolkGBxyg==
+"@snyk/protect@^1.924.0":
+  version "1.942.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.942.0.tgz#199a4c64cb14e2a94250e9472f8234d5e7edb9a0"
+  integrity sha512-6v2zDKgibh8C9eFNQH2g/pGgDaGFpNfNqlA9hSppfkm8NXmUY/R0Veaap0CvtHro/mxQutnXh7sCHdeLmasfbA==
 
 "@swc/helpers@^0.3.6":
   version "0.3.8"
