@@ -10,16 +10,16 @@ on:
 
 jobs:
   test:
-    name: Test on node 14.16.0
+    name: Test on Node
     runs-on: ubuntu-latest    
     steps:
     - name: Checkout
       uses: actions/checkout@v3
-    - name: Use Node.js 14.16.0
-      uses: actions/setup-node@v2
+    - name: Use Node.js
+      uses: actions/setup-node@v3
       with:
-        node-version: 14.16.0
         cache: 'yarn'
+        node-version-file: '.nvmrc'
     - name: Cypress run
       uses: cypress-io/github-action@v2
       with:
