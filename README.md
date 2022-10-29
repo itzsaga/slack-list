@@ -1,6 +1,6 @@
 # Slack List
 
-![Cypress Tests](https://github.com/itzsaga/slack-list/workflows/Cypress%20Tests/badge.svg) [![Known Vulnerabilities](https://snyk.io/test/github/itzsaga/slack-list/badge.svg)](https://snyk.io/test/github/itzsaga/slack-list)
+![Cypress Tests](https://github.com/itzsaga/slack-list/workflows/Cypress%20Tests/badge.svg) [![Known Vulnerabilities](https://snyk.io/test/github/itzsaga/slack-list/badge.svg)](https://snyk.io/test/github/itzsaga/slack-list) [![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/cfcz.svg)](https://setha.betteruptime.com/)
 
 An open source site listing public Slack networks from around the world.
 
