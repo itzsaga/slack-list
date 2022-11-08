@@ -44,7 +44,7 @@
   "devDependencies": {
     "cypress": "10.7.0",
     "prettier": "2.7.1",
-    "serve": "14.0.1"
+    "serve": "14.1.1"
   },
   "snyk": true
 }
