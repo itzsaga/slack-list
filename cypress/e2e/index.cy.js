@@ -74,8 +74,8 @@ describe('The List Page', () => {
       it("'Bluegrass Developers Guild' link works", () => {
         cy.contains('Bluegrass Developers Guild').click()
       })
-      it("'Louisville Tech / Louisville.IO' link works", () => {
-        cy.contains('Louisville Tech / Louisville.IO').click()
+      it("'Louisville Tech' link works", () => {
+        cy.contains('Louisville Tech').click()
       })
       it("'MidWestDevChat.com' link works", () => {
         cy.contains('MidWestDevChat.com').click()
