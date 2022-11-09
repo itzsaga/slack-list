@@ -152,10 +152,10 @@ export default {
               url: 'https://www.bluegrassdevs.org/',
             },
             {
-              name: 'Louisville Tech / Louisville.IO',
+              name: 'Louisville Tech',
               description:
                 'a community of technology user groups and meetups in Louisville, Kentucky.',
-              url: 'https://slackin.louisvilletech.org/',
+              url: 'https://join.slack.com/t/louisville/shared_invite/zt-9l0fgrht-EpCk7jDw7LvcgETaYPV46g',
             },
           ],
         },
