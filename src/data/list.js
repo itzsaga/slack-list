@@ -168,11 +168,6 @@ export default {
               url: 'http://slack.beta.nyc/',
             },
             {
-              name: 'NYC Devs',
-              description: 'Community of New York City based developers.',
-              url: 'http://nycdevs.org/',
-            },
-            {
               name: 'NYCTech',
               description: 'A network for the New York Tech scene.',
               url: 'https://www.nyctechslack.com/',

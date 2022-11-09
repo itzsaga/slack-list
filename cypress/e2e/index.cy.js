@@ -80,9 +80,6 @@ describe('The List Page', () => {
       it("'BetaNYC' link works", () => {
         cy.contains('BetaNYC').click()
       })
-      it("'NYC Devs' link works", () => {
-        cy.contains('NYC Devs').click()
-      })
       it("'NYCTech' link works", () => {
         cy.contains('NYCTech').click()
       })
