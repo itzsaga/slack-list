@@ -152,20 +152,10 @@ export default {
               url: 'https://www.bluegrassdevs.org/',
             },
             {
-              name: 'Louisville Tech / Louisville.IO',
+              name: 'Louisville Tech',
               description:
                 'a community of technology user groups and meetups in Louisville, Kentucky.',
-              url: 'https://slackin.louisvilletech.org/',
-            },
-          ],
-        },
-        {
-          midwest: [
-            {
-              name: 'MidWestDevChat.com',
-              description:
-                'An awesome group of developers (software, web, etc) from the midwest who hang out daily using the great Slack messaging app.',
-              url: 'https://midwestdevchat.com/',
+              url: 'https://join.slack.com/t/louisville/shared_invite/zt-9l0fgrht-EpCk7jDw7LvcgETaYPV46g',
             },
           ],
         },
@@ -176,11 +166,6 @@ export default {
               description:
                 'BetaNYC is a civic organization dedicated to improving lives in New York through civic design, technology, and data.',
               url: 'http://slack.beta.nyc/',
-            },
-            {
-              name: 'NYC Devs',
-              description: 'Community of New York City based developers.',
-              url: 'http://nycdevs.org/',
             },
             {
               name: 'NYCTech',
