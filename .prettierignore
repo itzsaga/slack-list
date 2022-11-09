@@ -1,2 +1,4 @@
 .github/
 *.md
+.pnp*
+.yarnrc.yml
