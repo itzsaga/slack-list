@@ -46,5 +46,6 @@
     "prettier": "2.7.1",
     "serve": "14.1.1"
   },
-  "snyk": true
+  "snyk": true,
+  "packageManager": "yarn@3.2.4"
 }
