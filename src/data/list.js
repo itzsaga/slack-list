@@ -160,16 +160,6 @@ export default {
           ],
         },
         {
-          midwest: [
-            {
-              name: 'MidWestDevChat.com',
-              description:
-                'An awesome group of developers (software, web, etc) from the midwest who hang out daily using the great Slack messaging app.',
-              url: 'https://midwestdevchat.com/',
-            },
-          ],
-        },
-        {
           'new york': [
             {
               name: 'BetaNYC',
