@@ -2787,14 +2787,14 @@
     lodash.deburr "^4.1.0"
 
 "@snyk/protect@^1.1095.0":
-  version "1.1108.0"
-  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1108.0.tgz#3cb73bbb8c39e96bb7a5285b512476404c88307e"
-  integrity sha512-NJFFPiSTenMMfjqM4lm1N/CmuTWaD1DR5MQL1Saiwa8MhM2lz3c4gDMhpHCCR2VztlvOHmgdLMupFSCGfM1dJw==
+  version "1.1118.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1118.0.tgz#a97764cad3d55c08aaa17ca011ede17340c275ac"
+  integrity sha512-vxV18XeBB21ArtBWAtiV+GnviEeVhNkF3c/ATUXEEgNRZvmyN/arXbWZiI4HgaKz2wJvMYb+KV4e8QA9BbQHpw==
 
 "@swc/helpers@^0.4.2":
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.4.3.tgz#16593dfc248c53b699d4b5026040f88ddb497012"
-  integrity sha512-6JrF+fdUK2zbGpJIlN7G3v966PQjyx/dPt1T9km2wj+EUBqgrxCk3uX4Kct16MIm9gGxfKRcfax2hVf5jvlTzA==
+  version "0.4.14"
+  resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.4.14.tgz#1352ac6d95e3617ccb7c1498ff019654f1e12a74"
+  integrity sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==
   dependencies:
     tslib "^2.4.0"
 
