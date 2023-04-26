@@ -1917,9 +1917,9 @@
     lodash.deburr "^4.1.0"
 
 "@snyk/protect@^1.1095.0":
-  version "1.1142.0"
-  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1142.0.tgz#1644d0f351ca2cf6886d5d7ae2145f79d2ac15f6"
-  integrity sha512-6vV1Ly/UoLD8VWkClhBFHtiZCCYSlDYBkSfPLYG9E+Ts3u+VwT1zCp5urQq9pv5R+FtjgNXtWtA2K21NSnDoZg==
+  version "1.1146.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1146.0.tgz#f2975d836afbf192394f97be29e7b49890878f9a"
+  integrity sha512-RAkcCTCCoXt8GEn0ievSCwTvVRzzn/gKF9IjEsrGf6l7tPzdNw4KWws5iceF9b4hm37NcA5HyuEL2Xcgcc45Uw==
 
 "@socket.io/component-emitter@~3.1.0":
   version "3.1.0"
