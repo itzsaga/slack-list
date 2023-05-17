@@ -1,19 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:base"],
   "packageRules": [
     {
-      "matchManagers": [
-        "npm"
-      ],
+      "matchManagers": ["npm"],
       "stabilityDays": 3
     },
     {
-      "matchDepTypes": [
-        "devDependencies"
-      ],
+      "matchDepTypes": ["devDependencies"],
       "automerge": true,
       "automergeType": "branch",
       "automergeStrategy": "squash",
@@ -34,9 +28,7 @@
       "rebaseWhen": "conflicted"
     },
     {
-      "matchUpdateTypes": [
-        "major"
-      ],
+      "matchUpdateTypes": ["major"],
       "automerge": false,
       "automergeStrategy": "auto",
       "rebaseWhen": "auto"
