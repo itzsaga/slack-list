@@ -1956,10 +1956,10 @@
     escape-string-regexp "^2.0.0"
     lodash.deburr "^4.1.0"
 
-"@snyk/protect@^1.1095.0":
-  version "1.1159.0"
-  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1159.0.tgz#5b357a73a37798ccacd0feab221a5e31cb5e3530"
-  integrity sha512-1bkWJjWAYGkb50iHNQ4a57DqveidaBge/cYVql9jYlGHo/B+gEG1QWRzH0K6suz4AYVBnj7ZP5LjN5qSboj7oQ==
+"@snyk/protect@^1.1160.0":
+  version "1.1178.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1178.0.tgz#bd688bdd65ba2863999690d0fa55602226a39d3f"
+  integrity sha512-7kwl5+/2qwBP+PFHBMa9licwOT7xsyVgFyWk97qAwFGuXSADtqZB/coayYedVk8JyWJckSNT+hzIbOf+NXnrqA==
 
 "@socket.io/component-emitter@~3.1.0":
   version "3.1.0"
