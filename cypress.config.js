@@ -7,5 +7,5 @@ module.exports = defineConfig({
     baseUrl: 'http://localhost:8000',
   },
   experimentalMemoryManagement: true,
-  numTestsKeptInMemory: 25 // default is 50
+  numTestsKeptInMemory: 25, // default is 50
 })
