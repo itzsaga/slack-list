@@ -125,9 +125,6 @@ describe('The List Page', () => {
       it("'Milwaukee Slack' link works", () => {
         cy.contains('Milwaukee Slack').click()
       })
-      it("'Northeast WI Slack' link works", () => {
-        cy.contains('Northeast WI Slack').click()
-      })
     })
 
     context('it based', () => {
