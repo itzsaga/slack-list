@@ -281,12 +281,6 @@ export default {
                 'We are here to help you navigate the Milwaukee tech scene.',
               url: 'https://mke-slack.herokuapp.com/',
             },
-            {
-              name: 'Northeast WI Slack',
-              description:
-                'We are here to help you navigate the Northeast WI tech scene.',
-              url: 'http://newslack.appletonmakerspace.org/',
-            },
           ],
         },
       ],
