@@ -2915,11 +2915,11 @@ __metadata:
   linkType: hard
 
 "@snyk/protect@npm:^1.1194.0":
-  version: 1.1236.0
-  resolution: "@snyk/protect@npm:1.1236.0"
+  version: 1.1238.0
+  resolution: "@snyk/protect@npm:1.1238.0"
   bin:
     snyk-protect: bin/snyk-protect
-  checksum: 4eca5e6b62780f33ef9274bea827f5114d73a4098be0eae1487a495bdb621e2f61281349fcab51c0b333432f51098a388eca4543de10e1c3b30e51f264a72517
+  checksum: 0936e6aafc4b036050b65ea1b25884358d8c3a02c29437af400bdc496299c48b92732bc95c4a581d789e6a98c006bfa11cff7c1fe6c32f6112c77092652efcb5
   languageName: node
   linkType: hard
 
