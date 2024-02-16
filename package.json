@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "cypress": "13.6.4",
-    "prettier": "3.2.4",
+    "prettier": "3.2.5",
     "serve": "14.2.1"
   },
   "snyk": true,
