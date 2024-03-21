@@ -158,6 +158,9 @@ describe('The List Page', () => {
     })
 
     context('miscellaneous based', () => {
+      it("'Kingdom Builders' link works", () => {
+        cy.contains('Kingdom Builders').click()
+      })
       it("'Penny University' link works", () => {
         cy.contains('Penny University').click()
       })
