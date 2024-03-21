@@ -341,8 +341,7 @@ export default {
   miscellaneousBased: [
     {
       name: 'Kingdom Builders',
-      description:
-        "A Slack Community for Technology in Missions and Ministry",
+      description: 'A Slack Community for Technology in Missions and Ministry',
       url: 'http://kingdombuilders.io/',
     },
     {
