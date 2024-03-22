@@ -11,7 +11,7 @@ const AboutPage = ({ location: { pathname } }) => (
           <p>
             This project was originally thought up by{' '}
             <a
-              href="http://sethalexander.me"
+              href="https://sethalexander.me"
               target="_blank"
               rel="noopener noreferrer"
             >
