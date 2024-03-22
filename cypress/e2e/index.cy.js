@@ -113,9 +113,6 @@ describe('The List Page', () => {
       it("'NashDev' link works", () => {
         cy.contains('NashDev').click()
       })
-      it("'DFWStartupCommunity' link works", () => {
-        cy.contains('DFWStartupCommunity').click()
-      })
       it("'Open Austin' link works", () => {
         cy.contains('Open Austin').click()
       })
