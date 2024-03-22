@@ -255,11 +255,6 @@ export default {
         {
           texas: [
             {
-              name: 'DFWStartupCommunity',
-              description: 'A network for the Dallas-Fort Worth Area.',
-              url: 'http://slack.dfwstartupcommunity.com/',
-            },
-            {
               name: 'Open Austin',
               description:
                 'For people interested in open government and civic technology.',
