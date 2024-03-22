@@ -89,9 +89,6 @@ describe('The List Page', () => {
       it("'PIG Squad' link works", () => {
         cy.contains('PIG Squad').click()
       })
-      it("'Portland Tech' link works", () => {
-        cy.contains('Portland Tech').click()
-      })
       it("'#techseattle' link works", () => {
         cy.contains('#techseattle').click()
       })

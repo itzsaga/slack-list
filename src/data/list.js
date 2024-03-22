@@ -46,7 +46,7 @@ export default {
               name: 'Magic City Tech',
               description:
                 'Magic City Tech is a group for Birmingham area developers, designers, marketers, business people, hobbyists, students, and other professionals involved in technology.',
-              url: 'http://magiccitytech.org/',
+              url: 'https://magiccitytech.org/',
             },
             {
               name: 'Tech256',
@@ -66,7 +66,7 @@ export default {
             {
               name: 'Software Craftsmanship',
               description: 'A network for the Los Angeles tech community',
-              url: 'http://slack.softwarecraftsmanship.org/',
+              url: 'https://slack.softwarecraftsmanship.org/',
             },
           ],
         },
@@ -91,7 +91,7 @@ export default {
               name: 'DCTech',
               description:
                 'A free, public Slack for the Washington, DC Tech community.',
-              url: 'http://www.dctechslack.com/',
+              url: 'https://www.dctechslack.com/',
             },
           ],
         },
@@ -165,7 +165,7 @@ export default {
               name: 'BetaNYC',
               description:
                 'BetaNYC is a civic organization dedicated to improving lives in New York through civic design, technology, and data.',
-              url: 'http://slack.beta.nyc/',
+              url: 'https://slack.beta.nyc/',
             },
             {
               name: 'NYCTech',
@@ -190,11 +190,6 @@ export default {
               name: 'PIG Squad',
               description: 'The Portland Indie Game Squad.',
               url: 'https://pigsquadslack.herokuapp.com/',
-            },
-            {
-              name: 'Portland Tech',
-              description: 'A network for the Portland Tech scene.',
-              url: 'http://pdx-startups-slack.herokuapp.com/',
             },
             {
               name: '#techseattle',
@@ -223,7 +218,7 @@ export default {
             {
               name: 'Charleston Tech',
               description: 'A network for the Charleston Tech scene.',
-              url: 'http://charlestontechnology.com/slack/',
+              url: 'https://charlestontechnology.com/slack/',
             },
           ],
         },
@@ -243,7 +238,7 @@ export default {
             {
               name: 'memtech',
               description: 'Memphis technical community chat.',
-              url: 'http://slack.memphistechnology.org/',
+              url: 'https://memphistechnology.org/blog/2015/05/19/join-memtech-on-slack-chat/',
             },
             {
               name: 'NashDev',
@@ -286,7 +281,7 @@ export default {
       name: 'Android United',
       description:
         'A friendly Slack community of Android developers. We unite people from all over the world. We share our experience, knowledge and relevant news about Android and mobile. We help each other.',
-      url: 'http://android-united.community/',
+      url: 'https://android-united.community/',
     },
     {
       name: "APIs You Won't Hate",
