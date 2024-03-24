@@ -27,7 +27,7 @@
   "homepage": "https://github.com/itzsaga/slack-list#readme",
   "dependencies": {
     "@snyk/protect": "^1.1194.0",
-    "bulma": "^0.9.4",
+    "bulma": "^1.0.0",
     "font-awesome": "^4.7.0",
     "gatsby": "^5.0.0",
     "gatsby-plugin-manifest": "^5.0.0",
