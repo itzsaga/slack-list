@@ -4685,10 +4685,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bulma@npm:^0.9.4":
-  version: 0.9.4
-  resolution: "bulma@npm:0.9.4"
-  checksum: 10c0/ee4db3427f8ba24fa83d112dca87b99ba009ded9b159f72c4c35e04d1d25c636c3275db1268315427226cdd6c27c00e4147d4696b89cf1c4d57945f80dd16331
+"bulma@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "bulma@npm:1.0.0"
+  dependencies:
+    sass: "npm:^1.71.1"
+  checksum: 10c0/a7c8370e359a2f89cca6dfd9e9c696e3b5f5d430f3b2b68b0f33ef8bbb4d6879644d416f90887404853582732170ce73064ec7f577c541fb61e99b47edc18ce7
   languageName: node
   linkType: hard
 
@@ -13295,7 +13297,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.55.0":
+"sass@npm:^1.55.0, sass@npm:^1.71.1":
   version: 1.72.0
   resolution: "sass@npm:1.72.0"
   dependencies:
@@ -13656,7 +13658,7 @@ __metadata:
   resolution: "slack-list@workspace:."
   dependencies:
     "@snyk/protect": "npm:^1.1194.0"
-    bulma: "npm:^0.9.4"
+    bulma: "npm:^1.0.0"
     cypress: "npm:13.7.0"
     font-awesome: "npm:^4.7.0"
     gatsby: "npm:^5.0.0"
