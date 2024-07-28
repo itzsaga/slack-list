@@ -4674,9 +4674,9 @@ __metadata:
   linkType: hard
 
 "bulma@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "bulma@npm:1.0.1"
-  checksum: 10c0/f6fc28167edf8b227c1406d54f72d14ab9e77c0303ba502bef70d93912dcf4b46aa26bcf14060712526785d9828e382e791f8ee7a7209ed7b85d755a85acc307
+  version: 1.0.2
+  resolution: "bulma@npm:1.0.2"
+  checksum: 10c0/294c28a445366074431c56624eea05cdb156537064c2af75002ef8d49bcb336c451fbb4ce81337cf085228247f81b27df418dd5290d6b6276c1aaa40ad4bbf64
   languageName: node
   linkType: hard
 
