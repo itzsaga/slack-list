@@ -5829,9 +5829,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:13.14.2":
-  version: 13.14.2
-  resolution: "cypress@npm:13.14.2"
+"cypress@npm:13.13.3":
+  version: 13.13.3
+  resolution: "cypress@npm:13.13.3"
   dependencies:
     "@cypress/request": "npm:^3.0.1"
     "@cypress/xvfb": "npm:^1.2.4"
@@ -5877,7 +5877,7 @@ __metadata:
     yauzl: "npm:^2.10.0"
   bin:
     cypress: bin/cypress
-  checksum: 10c0/ca838bbf878c46aa643e879c83c1532250cb3ec12cdc4e94e9c483bf042179a8de2b9d30fcc7777820793d71c44627c75c35c472b9de8b8dd39500ffbea75a34
+  checksum: 10c0/187fdbe0ca6eedd04a04828971847ef5f3d0e0c2bd74a25a761dd2cc0de1fb84f7e4c1bc4f88e46f753d87748b31eca3ddaae798275546fe1964c8453cbe4a63
   languageName: node
   linkType: hard
 
@@ -13645,7 +13645,7 @@ __metadata:
   dependencies:
     "@snyk/protect": "npm:^1.1194.0"
     bulma: "npm:^1.0.0"
-    cypress: "npm:13.14.2"
+    cypress: "npm:13.13.3"
     font-awesome: "npm:^4.7.0"
     gatsby: "npm:^5.0.0"
     gatsby-plugin-manifest: "npm:^5.0.0"
