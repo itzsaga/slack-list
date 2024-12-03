@@ -3071,11 +3071,11 @@ __metadata:
   linkType: hard
 
 "@snyk/protect@npm:^1.1194.0":
-  version: 1.1294.1
-  resolution: "@snyk/protect@npm:1.1294.1"
+  version: 1.1294.0
+  resolution: "@snyk/protect@npm:1.1294.0"
   bin:
     snyk-protect: bin/snyk-protect
-  checksum: 10c0/abbab828b22de5229a599a134293d7e9bfaed0849e6721dca7b3c127fdb1d6a85246d9d26fb99ac8fbc18094df24851e0f617a09ebe57b72e6ac09290542dfd7
+  checksum: 10c0/91020614018d37c5987c4863426540be2d5d8cf39b1a26f0b649a9aa69d62ae742c38ea8ecf139236020afd1644d770c506ea4ddb29c2a088d3b008661653a8c
   languageName: node
   linkType: hard
 
@@ -12682,12 +12682,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.4.1":
-  version: 3.4.1
-  resolution: "prettier@npm:3.4.1"
+"prettier@npm:3.3.3":
+  version: 3.3.3
+  resolution: "prettier@npm:3.3.3"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/2d6cc3101ad9de72b49c59339480b0983e6ff6742143da0c43f476bf3b5ef88ede42ebd9956d7a0a8fa59f7a5990e8ef03c9ad4c37f7e4c9e5db43ee0853156c
+  checksum: 10c0/b85828b08e7505716324e4245549b9205c0cacb25342a030ba8885aba2039a115dbcf75a0b7ca3b37bc9d101ee61fab8113fc69ca3359f2a226f1ecc07ad2e26
   languageName: node
   linkType: hard
 
@@ -14147,7 +14147,7 @@ __metadata:
     gatsby-plugin-sass: "npm:^6.0.0"
     gatsby-plugin-sharp: "npm:^5.0.0"
     gatsby-transformer-sharp: "npm:^5.0.0"
-    prettier: "npm:3.4.1"
+    prettier: "npm:3.3.3"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     react-helmet: "npm:^6.1.0"
