@@ -42,10 +42,10 @@
     "sass": "^1.55.0"
   },
   "devDependencies": {
-    "cypress": "13.17.0",
+    "cypress": "13.16.0",
     "prettier": "3.5.0",
     "serve": "14.2.4"
   },
   "snyk": true,
-  "packageManager": "yarn@4.5.1"
+  "packageManager": "yarn@4.7.0"
 }
