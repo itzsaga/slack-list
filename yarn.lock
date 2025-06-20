@@ -3081,11 +3081,11 @@ __metadata:
   linkType: hard
 
 "@snyk/protect@npm:^1.1194.0":
-  version: 1.1297.1
-  resolution: "@snyk/protect@npm:1.1297.1"
+  version: 1.1297.2
+  resolution: "@snyk/protect@npm:1.1297.2"
   bin:
     snyk-protect: bin/snyk-protect
-  checksum: 10c0/f91cc897493a2d5cd5397209c7f95b8eb7748f5d80d7f8dc0d044b8c3344f735a34290c17822741e350157524e65c6976c87dd39d5bb81e01af039fd58a8a949
+  checksum: 10c0/d7c38f7c4d1a606029182fc8b44de2bf8253ec64384e06faac566c234cfb3972ca38ac55ba64c2e2c836bf3fa1443d3cf62ceec7a9a1ab0377bb614f42af78c0
   languageName: node
   linkType: hard
 
@@ -6128,9 +6128,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:14.4.0":
-  version: 14.4.0
-  resolution: "cypress@npm:14.4.0"
+"cypress@npm:14.5.0":
+  version: 14.5.0
+  resolution: "cypress@npm:14.5.0"
   dependencies:
     "@cypress/request": "npm:^3.0.8"
     "@cypress/xvfb": "npm:^1.2.4"
@@ -6158,6 +6158,7 @@ __metadata:
     figures: "npm:^3.2.0"
     fs-extra: "npm:^9.1.0"
     getos: "npm:^3.2.1"
+    hasha: "npm:5.2.2"
     is-installed-globally: "npm:~0.4.0"
     lazy-ass: "npm:^1.6.0"
     listr2: "npm:^3.8.3"
@@ -6177,7 +6178,7 @@ __metadata:
     yauzl: "npm:^2.10.0"
   bin:
     cypress: bin/cypress
-  checksum: 10c0/bca4d04b3245dab4e7c57f36014f4b9b6920caba7b7c7b602c1bdd4e467fd3f9eeec0ca18ea82c3cdfa5aa5c2e396060fea2bd2c63325bc45bd7895c501f4a0b
+  checksum: 10c0/b76b05c029625357fbc34f22b632c55f9f981f86c3a568a88ea3d8982b8299e4bd4275e966b2ec767f9a989c6e9059fb03a4a8086048b4e990079b1cab19ba11
   languageName: node
   linkType: hard
 
@@ -9273,7 +9274,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hasha@npm:^5.2.2":
+"hasha@npm:5.2.2, hasha@npm:^5.2.2":
   version: 5.2.2
   resolution: "hasha@npm:5.2.2"
   dependencies:
@@ -14404,7 +14405,7 @@ __metadata:
   dependencies:
     "@snyk/protect": "npm:^1.1194.0"
     bulma: "npm:^1.0.0"
-    cypress: "npm:14.4.0"
+    cypress: "npm:14.5.0"
     font-awesome: "npm:^4.7.0"
     gatsby: "npm:^5.0.0"
     gatsby-plugin-manifest: "npm:^5.0.0"
