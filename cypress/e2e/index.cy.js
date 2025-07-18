@@ -26,6 +26,9 @@ describe('The List Page', () => {
       it("'AfriSplash Remotely' link works", () => {
         cy.contains('AfriSplash Remotely').click()
       })
+      it("'Lekker Tech' link works", () => {
+        cy.contains('Lekker Tech').click()
+      })
       it("'EuropeanStartups' link works", () => {
         cy.contains('EuropeanStartups').click()
       })
