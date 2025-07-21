@@ -11,9 +11,10 @@ export default {
           url: 'https://bit.ly/afrisplashremotely2021',
         },
         {
-            name: 'Lekker Tech',
-            description: 'A relaxed space for South African tech workers, wherever they are in the world, to connect, socialise, and support one another.',
-            url: 'https://lekkertech.org.za',
+          name: 'Lekker Tech',
+          description:
+            'A relaxed space for South African tech workers, wherever they are in the world, to connect, socialise, and support one another.',
+          url: 'https://lekkertech.org.za',
         },
       ],
     },
