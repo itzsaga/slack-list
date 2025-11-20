@@ -3099,11 +3099,11 @@ __metadata:
   linkType: hard
 
 "@snyk/protect@npm:^1.1194.0":
-  version: 1.1300.2
-  resolution: "@snyk/protect@npm:1.1300.2"
+  version: 1.1299.1
+  resolution: "@snyk/protect@npm:1.1299.1"
   bin:
     snyk-protect: bin/snyk-protect
-  checksum: 10c0/a21634e73a9134eba03c4ef64ecc30fa8ad67db5f58688af546b0c6d9f8dce2f3861acf68954a1fd2036a597195a9f1d0bd9d91c5158d24881603a31bced5888
+  checksum: 10c0/0c7594eb06d1695dc36ad619a7ac40b772afb8e399b544b9492211ce9aae9fd21d98922ea40eccd91965ef41deb14be3d97d5a6eca3038a5530062287eb47967
   languageName: node
   linkType: hard
 
@@ -13828,8 +13828,8 @@ __metadata:
   linkType: hard
 
 "sass@npm:^1.55.0":
-  version: 1.93.3
-  resolution: "sass@npm:1.93.3"
+  version: 1.93.2
+  resolution: "sass@npm:1.93.2"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^4.0.0"
@@ -13840,7 +13840,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: 10c0/b9facc64de10c9d1514272c1dcbb48ca99d5f591a1cd43fd27d641275d9d95948f1299107ab5b309e2abb552667cca84a38a1a3df5116eb72eba4144bf850b6a
+  checksum: 10c0/5a19f12dbe8c142e40c1e0473d1e624898242b1c21010301e169b528be8c580df6356329c798522b525eb11eda4b04b9b77422badc55c47889600f8477201d2b
   languageName: node
   linkType: hard
 
