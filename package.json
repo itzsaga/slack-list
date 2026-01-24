@@ -42,8 +42,8 @@
     "sass": "^1.55.0"
   },
   "devDependencies": {
-    "cypress": "15.9.0",
-    "prettier": "3.7.4",
+    "cypress": "15.8.2",
+    "prettier": "3.8.1",
     "serve": "14.2.5"
   },
   "snyk": true,
