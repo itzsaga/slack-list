@@ -3360,11 +3360,11 @@ __metadata:
   linkType: hard
 
 "@types/yauzl@npm:^2.9.1":
-  version: 2.10.3
-  resolution: "@types/yauzl@npm:2.10.3"
+  version: 2.9.2
+  resolution: "@types/yauzl@npm:2.9.2"
   dependencies:
     "@types/node": "npm:*"
-  checksum: 10c0/f1b7c1b99fef9f2fe7f1985ef7426d0cebe48cd031f1780fcdc7451eec7e31ac97028f16f50121a59bcf53086a1fc8c856fd5b7d3e00970e43d92ae27d6b43dc
+  checksum: 10c0/0b4a5db8b7b01e94d9c5f48b5043c22553313e9f31918a9755a4bc7875be92a99bf5f11aa260016f553410be517ce64f5a99b14226d878d65d6d1696869a08b1
   languageName: node
   linkType: hard
 
@@ -4961,9 +4961,9 @@ __metadata:
   linkType: hard
 
 "cachedir@npm:^2.3.0":
-  version: 2.4.0
-  resolution: "cachedir@npm:2.4.0"
-  checksum: 10c0/76bff9009f2c446cd3777a4aede99af634a89670a67012b8041f65e951d3d36cefe8940341ea80c72219ee9913fa1f6146824cd9dfe9874a4bded728af7e6d76
+  version: 2.3.0
+  resolution: "cachedir@npm:2.3.0"
+  checksum: 10c0/8380a4a4aa824b20cbc246c38ae2b3379a865f52ea1f31f7b057d07545ea1ab27f93c4323d4bd1bd398991489f18a226880c3166b19ecbf49a77b18c519d075a
   languageName: node
   linkType: hard
 
@@ -5492,10 +5492,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"colorette@npm:^2.0.10, colorette@npm:^2.0.16":
+"colorette@npm:^2.0.10":
   version: 2.0.20
   resolution: "colorette@npm:2.0.20"
   checksum: 10c0/e94116ff33b0ff56f3b83b9ace895e5bf87c2a7a47b3401b8c3f3226e050d5ef76cf4072fb3325f9dc24d1698f9b730baf4e05eeaf861d74a1883073f4c98a40
+  languageName: node
+  linkType: hard
+
+"colorette@npm:^2.0.16":
+  version: 2.0.16
+  resolution: "colorette@npm:2.0.16"
+  checksum: 10c0/7430bd996545347f262ae9716bfc8ca3776606e9db854279082004f3141b15a64ad2ee0e4f10cacba5a07cc92ca3edc2d01cbe73fd2843ccd80e98d0e3a8e79b
   languageName: node
   linkType: hard
 
@@ -6701,13 +6708,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enquirer@npm:^2.3.5, enquirer@npm:^2.3.6":
+"enquirer@npm:^2.3.5":
   version: 2.4.1
   resolution: "enquirer@npm:2.4.1"
   dependencies:
     ansi-colors: "npm:^4.1.1"
     strip-ansi: "npm:^6.0.1"
   checksum: 10c0/43850479d7a51d36a9c924b518dcdc6373b5a8ae3401097d336b7b7e258324749d0ad37a1fcaa5706f04799baa05585cd7af19ebdf7667673e7694435fcea918
+  languageName: node
+  linkType: hard
+
+"enquirer@npm:^2.3.6":
+  version: 2.3.6
+  resolution: "enquirer@npm:2.3.6"
+  dependencies:
+    ansi-colors: "npm:^4.1.1"
+  checksum: 10c0/8e070e052c2c64326a2803db9084d21c8aaa8c688327f133bf65c4a712586beb126fd98c8a01cfb0433e82a4bd3b6262705c55a63e0f7fb91d06b9cedbde9a11
   languageName: node
   linkType: hard
 
@@ -12876,12 +12892,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.9.5":
-  version: 3.9.5
-  resolution: "prettier@npm:3.9.5"
+"prettier@npm:3.8.1":
+  version: 3.8.1
+  resolution: "prettier@npm:3.8.1"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/0349dd9e6d8010965de6f69e6b6ee2484b8caf78c66675afced6c75ad60ff24c3a2a4f41153fb8adeaee4d8f539641b48cebc71d283cec4d146e9962126c5ceb
+  checksum: 10c0/33169b594009e48f570471271be7eac7cdcf88a209eed39ac3b8d6d78984039bfa9132f82b7e6ba3b06711f3bfe0222a62a1bfb87c43f50c25a83df1b78a2c42
   languageName: node
   linkType: hard
 
@@ -13052,11 +13068,11 @@ __metadata:
   linkType: hard
 
 "qs@npm:~6.14.1":
-  version: 6.14.2
-  resolution: "qs@npm:6.14.2"
+  version: 6.14.1
+  resolution: "qs@npm:6.14.1"
   dependencies:
     side-channel: "npm:^1.1.0"
-  checksum: 10c0/646110124476fc9acf3c80994c8c3a0600cbad06a4ede1c9e93341006e8426d64e85e048baf8f0c4995f0f1bf0f37d1f3acc5ec1455850b81978792969a60ef6
+  checksum: 10c0/0e3b22dc451f48ce5940cbbc7c7d9068d895074f8c969c0801ac15c1313d1859c4d738e46dc4da2f498f41a9ffd8c201bd9fb12df67799b827db94cc373d2613
   languageName: node
   linkType: hard
 
@@ -13762,9 +13778,9 @@ __metadata:
   linkType: hard
 
 "rfdc@npm:^1.3.0":
-  version: 1.4.1
-  resolution: "rfdc@npm:1.4.1"
-  checksum: 10c0/4614e4292356cafade0b6031527eea9bc90f2372a22c012313be1dcc69a3b90c7338158b414539be863fa95bfcb2ddcd0587be696841af4e6679d85e62c060c7
+  version: 1.3.0
+  resolution: "rfdc@npm:1.3.0"
+  checksum: 10c0/a17fd7b81f42c7ae4cb932abd7b2f677b04cc462a03619fb46945ae1ccae17c3bc87c020ffdde1751cbfa8549860a2883486fdcabc9b9de3f3108af32b69a667
   languageName: node
   linkType: hard
 
@@ -13805,11 +13821,11 @@ __metadata:
   linkType: hard
 
 "rxjs@npm:^7.5.1":
-  version: 7.8.2
-  resolution: "rxjs@npm:7.8.2"
+  version: 7.5.5
+  resolution: "rxjs@npm:7.5.5"
   dependencies:
     tslib: "npm:^2.1.0"
-  checksum: 10c0/1fcd33d2066ada98ba8f21fcbbcaee9f0b271de1d38dc7f4e256bfbc6ffcdde68c8bfb69093de7eeb46f24b1fb820620bf0223706cff26b4ab99a7ff7b2e2c45
+  checksum: 10c0/bc84ba51aa1fffb03a2622a406d8a5d5074a543054a60a813302e39b6d3cb485d6738c4aad567e8f2f0c58839a3c3c272a336487951b44013b99eb731a0453bf
   languageName: node
   linkType: hard
 
@@ -14398,7 +14414,7 @@ __metadata:
     gatsby-plugin-sass: "npm:^6.0.0"
     gatsby-plugin-sharp: "npm:^5.0.0"
     gatsby-transformer-sharp: "npm:^5.0.0"
-    prettier: "npm:3.9.5"
+    prettier: "npm:3.8.1"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     react-helmet: "npm:^6.1.0"
