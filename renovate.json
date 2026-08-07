@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchManagers": ["npm"],
-      "stabilityDays": 3
+      "minimumReleaseAge": "3 days"
     },
     {
       "matchDepTypes": ["devDependencies"],
