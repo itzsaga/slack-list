@@ -14,7 +14,15 @@ describe('The About Page', () => {
       cy.contains('MIT License').click()
     })
     it("'CC BY-NC-SA 4.0' link works", () => {
-      cy.contains('CC BY-NC-SA 4.0').click()
+      // Clicking through runs creativecommons.org's own JavaScript, which
+      // throws and fails the test. Requesting the href checks what this test
+      // cares about -- the link points somewhere that responds -- without
+      // executing their code.
+      cy.contains('CC BY-NC-SA 4.0')
+        .should('have.attr', 'href')
+        .then((href) => {
+          cy.request(href).its('status').should('eq', 200)
+        })
     })
   })
 })
