@@ -21,7 +21,7 @@ jobs:
         cache: 'yarn'
         node-version-file: '.nvmrc'
     - name: Cypress run
-      uses: cypress-io/github-action@v4
+      uses: cypress-io/github-action@v7.4.3
       with:
         build: yarn build
         start: yarn start
