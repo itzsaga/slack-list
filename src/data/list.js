@@ -333,7 +333,14 @@ export default {
     },
   ],
   hardwareBased: [],
-  financeAndMarketingBased: [],
+  financeAndMarketingBased: [
+    {
+      name: 'Flat Rate Dev',
+      description:
+        'A Slack community about flat-rate software development: fixed prices, scoping, and getting clients off hourly billing. Run by Poket Dev.',
+      url: 'https://poketdev.slack.com',
+    },
+  ],
   miscellaneousBased: [
     {
       name: 'Penny University',
