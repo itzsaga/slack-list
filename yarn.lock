@@ -3096,11 +3096,11 @@ __metadata:
   linkType: hard
 
 "@snyk/protect@npm:^1.1194.0":
-  version: 1.1307.4
-  resolution: "@snyk/protect@npm:1.1307.4"
+  version: 1.1308.2
+  resolution: "@snyk/protect@npm:1.1308.2"
   bin:
     snyk-protect: bin/snyk-protect
-  checksum: 10c0/af43d1e2388cfa799f7a938d2735a571ea21ca41ee607dd224409750181003e6d9eac58a7c94e145e436e97bc286fcddad9fc2a8653f5660cc1f0115091cc0ee
+  checksum: 10c0/82f366a41b9f57921e8ce1332e6df2e470b00c23dfd48f907089c41b778c46c58d62556bd32c614ab92c86befcf9ce5f9b22d22810bef2784e65f44cd1a8817d
   languageName: node
   linkType: hard
 
