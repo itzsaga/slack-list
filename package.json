@@ -44,7 +44,7 @@
   "devDependencies": {
     "cypress": "15.21.1",
     "prettier": "3.9.9",
-    "serve": "14.2.6"
+    "serve": "14.2.7"
   },
   "snyk": true,
   "packageManager": "yarn@4.13.0"
