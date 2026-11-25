@@ -47,5 +47,5 @@
     "serve": "14.2.7"
   },
   "snyk": true,
-  "packageManager": "yarn@4.13.0"
+  "packageManager": "yarn@4.19.0"
 }
